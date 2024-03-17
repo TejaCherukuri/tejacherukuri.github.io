@@ -26,7 +26,8 @@ const greeting = {
     "Passionate developer and researcher, dedicated to crafting end-to-end products that make a lasting impact on society.",
   resumeLink:
     "https://drive.google.com/file/d/1Xo2wWoX4Du_iRsscyc61sPBJF-ZjslE6/view?usp=drive_link",
-  portfolio_repository: "https://github.com/tejacherukuri/masterPortfolio",
+  portfolio_repository:
+    "https://github.com/tejacherukuri/tejacherukuri.github.io",
   githubProfile: "https://github.com/tejacherukuri",
 };
 
