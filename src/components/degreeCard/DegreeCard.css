@@ -66,6 +66,7 @@
 }
 
 .content-list {
+  font-size: 15px;
   padding-left: 10px;
   padding-right: 10px;
   font-family: "Google Sans Regular";
@@ -99,6 +100,7 @@
   margin: 0px;
   padding: 0px;
   font-family: "Google Sans Regular";
+  font-size: 15px;
   /* color: #000000; */
 }
 

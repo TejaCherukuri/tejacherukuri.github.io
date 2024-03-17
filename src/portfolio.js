@@ -2,83 +2,71 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Teja's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Passionate developer and researcher in Machine Learning and Data Science, dedicated to crafting end-to-end products that make a lasting impact on society.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
-    type: "website",
-    url: "http://ashutoshhathidara.com/",
+    title: "Teja Cherukuri Portfolio",
+    // type: "website",
+    // url: "http://abc.com/",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Teja Cherukuri",
+  logo_name: "TejaCherukuri",
+  // nickname: "",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Passionate developer and researcher, dedicated to crafting end-to-end products that make a lasting impact on society.",
   resumeLink:
-    "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+    "https://drive.google.com/file/d/1Xo2wWoX4Du_iRsscyc61sPBJF-ZjslE6/view?usp=drive_link",
+  portfolio_repository: "https://github.com/tejacherukuri/masterPortfolio",
+  githubProfile: "https://github.com/tejacherukuri",
 };
 
 const socialMediaLinks = [
   /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
+  // github: "https://github.com/tejacherukuri",
+  // linkedin: "https://linkedin.com/in/teja-krishna-cherukuri-319714135",
+  // gmail: "tejakrishnacherukuri@gmail.com",
+  // gitlab: "",
+  // facebook: "",
+  // twitter: "",
+  // instagram: ""
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/tejacherukuri",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    link: "https://linkedin.com/in/teja-krishna-cherukuri-319714135",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
-    name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
-  {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:tejakrishnacherukuri@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
-    name: "X-Twitter",
-    link: "https://twitter.com/ashutosh_1919",
-    fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
-    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
-  },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
+    name: "Google Scholar",
+    link: "https://scholar.google.com/citations?hl=en&user=6S9WmqwAAAAJ",
+    fontAwesomeIcon: "fa-book", // Reference https://fontawesome.com/icons/github?style=brands
+    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
+    link: "https://www.instagram.com/teja_cherukuri/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -87,12 +75,11 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "AI, Machine Learning & Data Science",
       fileName: "DataScienceImg",
       skills: [
         "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
         "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
       ],
       softwareSkills: [
         {
@@ -129,6 +116,13 @@ const skills = {
           skillName: "Deeplearning",
           imageSrc: "deeplearning_ai_logo.png",
         },
+        {
+          skillName: "HuggingFace Transformers",
+          fontAwesomeClassname: "logos:hugging-face-icon",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
       ],
     },
     {
@@ -136,8 +130,7 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Creating application backend in Java, Spring Boot & Flask",
       ],
       softwareSkills: [
         {
@@ -152,13 +145,6 @@ const skills = {
           fontAwesomeClassname: "fa-css3",
           style: {
             color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
           },
         },
         {
@@ -177,13 +163,6 @@ const skills = {
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
           skillName: "NPM",
           fontAwesomeClassname: "simple-icons:npm",
           style: {
@@ -191,24 +170,31 @@ const skills = {
           },
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
+          skillName: "SQL",
+          fontAwesomeClassname: "devicon:sqldeveloper",
           style: {
             color: "#2C8EBB",
           },
         },
         {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
+          skillName: "Java",
+          fontAwesomeClassname: "devicon:java",
           style: {
-            color: "#663399",
+            color: "#2C8EBB",
           },
         },
         {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
+          skillName: "Spring Boot",
+          fontAwesomeClassname: "simple-icons:springboot",
           style: {
-            color: "#02569B",
+            color: "#2C8EBB",
+          },
+        },
+        {
+          skillName: "Flask",
+          fontAwesomeClassname: "skill-icons:flask-dark",
+          style: {
+            color: "#2C8EBB",
           },
         },
       ],
@@ -219,17 +205,9 @@ const skills = {
       skills: [
         "⚡ Experience working on multiple cloud platforms",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Deploying deep learning models on cloud",
       ],
       softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
         {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
@@ -242,13 +220,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:microsoftazure",
           style: {
             color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
           },
         },
         {
@@ -281,45 +252,6 @@ const skills = {
         },
       ],
     },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
-        },
-      ],
-    },
   ],
 };
 
@@ -332,39 +264,7 @@ const competitiveSites = {
       style: {
         color: "#F79F1B",
       },
-      profileLink: "https://leetcode.com/layman_brother/",
-    },
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/layman_brother",
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
+      profileLink: "https://leetcode.com/Teja_Cherukuri/",
     },
     {
       siteName: "Kaggle",
@@ -372,7 +272,7 @@ const competitiveSites = {
       style: {
         color: "#20BEFF",
       },
-      profileLink: "https://www.kaggle.com/laymanbrother",
+      profileLink: "https://www.kaggle.com/tejacherukuri",
     },
   ],
 };
@@ -380,30 +280,30 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
+      title: "Georgia State University",
+      subtitle: "M.S in Computer Science",
+      logo_path: "gsu_small_logo.png",
+      alt_name: "GSU",
+      duration: "2023 - 2024 (Expected)",
+      descriptions: [
+        "⚡ I have taken variety of courses related to Artificial Intelligence which correspond to Natural Language Processing, Advanced Machine Learning, Computer Vision etc.",
+        "⚡ Apart from this, I have also done research assistantship. I have worked on creating multi-modal fusion transformers for Schizophrenia Classification",
+      ],
+      website_link: "https://www.gsu.edu/",
+    },
+    {
+      title:
+        "Vignan's Foundation for Science, Technology & Research University",
+      subtitle: "Bachelor of Technology in Computer Science",
+      logo_path: "vignan_logo.png",
+      alt_name: "VU",
       duration: "2016 - 2020",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ I was selected for Merit Scholarship which is given to top 10% of students in college. I have received award from respected director for best performance in academics.",
       ],
-      website_link: "http://iiitk.ac.in",
-    },
-    {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
-      descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
-      ],
-      website_link: "https://www.indiana.edu/",
+      website_link: "https://vignan.ac.in/",
     },
   ],
 };
@@ -411,111 +311,21 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
-    },
-    {
       title: "Deep Learning",
       subtitle: "- Andrew Ng",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
+        "https://www.coursera.org/account/accomplishments/specialization/AJ4BA3CYKZ45",
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
     },
     {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
+      title: "Python for Everybody",
+      subtitle: "- University of Michigan",
+      logo_path: "python_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
-    },
-    {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
+        "https://www.coursera.org/account/accomplishments/specialization/MZM9GYUCYTA4",
+      alt_name: "Python",
       color_code: "#4285F499",
     },
   ],
@@ -524,9 +334,9 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Professional Work and Volunteerships ",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "Throughout my professional and academic journey, I have held diverse roles, including positions as a Research Assistant, Data Science & Machine Learning Engineer, and Software Engineer.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -534,137 +344,99 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
-          description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+          title: "Graduate Research Assistant",
+          company: "TReNDS Center",
+          company_url: "https://trendscenter.org/",
+          logo_path: "trends_small_logo.png",
+          duration: "Dec 2023 - Present",
+          location: "Atlanta, GA",
+          description: [
+            "Cancer Assist: Currently working towards developing an ML framework for an intra-operative intelligent system aiding surgeons in cancer surgery.",
+            "Attention Network: Designed and implemented a novel attention mechanism that captures disease-specific regions from Brain MR images for Schizophrenia diagnosis, improving the system’s precision by 8%.",
+          ],
           color: "#0879bf",
         },
         {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
-          description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+          title: "Graduate Research Assistant",
+          company: "Georgia State University",
+          company_url: "https://www.gsu.edu/",
+          logo_path: "gsu_small_logo.png",
+          duration: "Aug 2023 - Dec 2023",
+          location: "Atlanta, GA",
+          description: [
+            "Designed and implemented a secure user management system for a fire spread simulation application, utilizing React.js and Spring Security with JWT and OAuth 2.0, following modern web security practices",
+          ],
           color: "#9b1578",
         },
         {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
+          title: "Data Science & Machine Learning Engineer",
+          company: "Tata Consultancy Services Limited",
+          company_url: "https://www.tcs.com/",
+          logo_path: "tcs_small_logo1.png",
+          duration: "Apr 2022 - Aug 2023",
+          location: "Hyderabad, Telangana",
+          description: [
+            "Optimized the data processing pipeline to load, clean, and transform banking customer data, resulting in a 25% reduction in data extraction time and a 15% decrease in operational expenses.",
+            "Fraud Filter: Brainstormed & developed an Machine Learning (ML) model to detect transactional irregularities from a pool of customer data, achieving a 20% reduction in fraudulent activities.",
+            "Savings Plan Recommender: Implemented a TensorFlow-driven hybrid collaborative filtering for personalized recommendations on Budget Savings Plan using customers’ financial history, leading to a 36% surge in new enrollments.",
+            "Contributed to building ML model deployment pipelines with MLFlow and Azure DevOps, achieving a 25% reduction in deployment time and ensuring smooth integration between model development and production environments.",
+          ],
+          color: "#fc1f20",
+        },
+        {
+          title: "Software Engineer",
+          company: "Tata Consultancy Services Limited",
+          company_url: "https://www.tcs.com/",
+          logo_path: "tcs_small_logo1.png",
+          duration: "Nov 2021 - Apr 2022",
+          location: "Hyderabad, Telangana",
+          description: [
+            "Designed & implemented REST APIs using Spring Boot, enhancing scalability and boosting API response times by 30%. Integrated React.js for a responsive UI, ensuring a user-friendly experience and reducing rendering latency by 20%.",
+            "Transformed the corporate actions application from a monolithic to a microservices architecture in Java, resulting in $2 million in client savings and substantial improvements in functionality and efficiency.",
+            "Auto Deployment: Increased application availability by migrating to a private cloud, while achieving a 50% budget optimization through automated build and deployment workflows with Git, Jenkins, Docker, and Kubernetes.",
+          ],
           color: "#fc1f20",
         },
       ],
     },
-    {
-      title: "Internships",
-      experiences: [
-        {
-          title: "Machine Learning Intern",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "May 2022 - Aug 2022",
-          location: "San Francisco, USA",
-          description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
-          color: "#000000",
-        },
-        {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
-          description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
-        },
-        {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
-          description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
-        },
-      ],
-    },
+    // {
+    //   title: "Internships",
+    //   experiences: [
+    //     {
+    //       title: "Machine Learning Intern",
+    //       company: "TikTok Inc.",
+    //       company_url: "https://www.tiktok.com/en/",
+    //       logo_path: "tiktok_logo.png",
+    //       duration: "May 2022 - Aug 2022",
+    //       location: "San Francisco, USA",
+    //       description:
+    //         "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
+    //       color: "#000000",
+    //     },
     {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
+          title: "Paper Reviewer",
+          company: "Qeios",
+          company_url: "https://www.qeios.com/",
+          logo_path: "unknown_logo.png",
+          duration: "Feb 2024 - Present",
           location: "Hyderabad, Telangana",
-          description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
+          description: ["Reviews Journal Papers on Medical Imaging"],
           color: "#4285F4",
         },
         {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
+          title: "NSS",
+          company: "National Service Scheme",
+          company_url: "https://nss.gov.in/",
+          logo_path: "nss_logo.png",
+          duration: "Aug 2018 - May 2020",
+          location: "Guntur, Andhra Pradesh",
+          description: [
+            "Donated & distributed water, food, shelter supplies to the poor",
+          ],
           color: "#D83B01",
-        },
-        {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-          color: "#000000",
-        },
-        {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
-        },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          color: "#181717",
         },
       ],
     },
@@ -675,58 +447,168 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "Engaged in diverse projects across Machine Learning, Data Science, and Full-stack development. Highlight is RHD (Retinal Health Diagnostics), an intelligent system diagnosing retinal diseases through user-friendly input scans. Proud of seamlessly integrating tech for accessible healthcare solutions.",
   avatar_image_path: "projects_image.svg",
 };
 
-const publicationsHeader = {
-  title: "Publications",
-  description:
-    "I have worked on and published a few research papers and publications of my own.",
-  avatar_image_path: "projects_image.svg",
-};
+const publicationsHeader = {};
 
 const publications = {
-  data: [
+  data: [],
+};
+
+// Research Page
+const research = {
+  title: "Research",
+  subtitle: "",
+  description:
+    "I am an active researcher in the field of Deep Learning, Computer Vision and NLP.  My research works mainly focusses on budiling computer aided diagnostic tools for medical imaging problems in the field of healthcare. My passion is to use the tech to make the healthcare powerful and more accessible.",
+  header_image_path: "experience.svg",
+  sections: [
     {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+      title: "Journals (6)",
+      work: true,
+      experiences: [
+        {
+          title:
+            "Gated contextual transformer network for multi-modal retinal image clinical description generation",
+          company: "Image and Vision Computing",
+          company_url:
+            "https://www.sciencedirect.com/journal/image-and-vision-computing",
+          logo_path: "elsevier_logo.png",
+          duration: "02/15/2024",
+          location: "Elsevier B.V.",
+          full_detailed_link:
+            "https://www.sciencedirect.com/science/article/pii/S0262885624000490",
+          description: [
+            "Generating semantically meaningful and coherent clinical description for the diagnosis of retinal images has been a challenging task for both Computer Vision and Natural Language Processing domains. This is mainly due to the fact that the clinical descriptions generated by the language model are completely dependent on the type of retinal image representations learned by the vision model. This work investigates and proposes a unified approach to integrate multi-modal retinal image visual representations with corresponding clinical keyword embeddings which can aid the language model to learn the clinical semantics and generate lengthy, coherent clinical descriptions accurately. Our proposed approach, named the Gated Contextual Transformer Network, comprises two attention-based encoders that learn semantically discriminative attention-based representations from retinal images and clinical keywords, along with a Transformer Network for clinical description generation. The first encoder leverages a pre-trained Convolutional Neural Network (VGG19) and a Gated Contextual Attention module to learn discriminative attention-based representations from the multi-modal retinal images. The second encoder incorporates an Embedding layer and an Attention module to learn attention-based clinical keyword embeddings. The Transformer network consists of a fusion encoder that attentively integrates retinal image visual features with clinical keyword embeddings and a decoder that is responsible for generating semantically meaningful and coherent clinical descriptions. Our experimental studies on the benchmark DeepEyeNet dataset demonstrate that the proposed approach successfully generates clinical descriptions from multi-modal retinal images, meeting the standards of ophthalmologists. To support our claim, we provide qualitative and quantitative evaluations of the proposed approach. This includes reporting BLUE, CIDEr, and ROUGE scores for the predicted descriptions, as well as employing Visual Explanation for Clinical Description Generation.",
+          ],
+          color: "#0879bf",
+        },
+        {
+          title:
+            "Visual attention based composite dense neural network for facial expression recognition",
+          company: "Journal of Ambient Intelligence and Humanized Computing",
+          company_url: "https://link.springer.com/journal/12652",
+          logo_path: "springer_small_logo.png",
+          duration: "12/2024",
+          location: "Springer Berlin Heidelberg",
+          full_detailed_link:
+            "https://link.springer.com/article/10.1007/s12652-022-03843-8",
+          description: [
+            "Facial Expression Recognition (FER) models have received special attention in the field of computer vision and provide the basis for many real-time applications. This article proposes a unique deep learning model called Visual Attention based Composite Dense Neural Network (VA-CDNN) for recognising expressions from facial images. We extract eye-pair, mouth, and normalized face regions from facial images using localized facial landmark points. Eye-pair and mouth regions provide local information, and normalized face provides comprehensive and holistic information about facial expression. All these cropped facial regions are passed through the pre-trained Xception deep ConvNet independently to obtain the most discriminating spatial representations from each of the regions. These representations serve as input to proposed Visual Attention block. Rather than giving equal importance to each feature in the spatial representation, attention weight is computed for each feature map to indicate the amount of attention to be paid. These attention based features obtained from all the three regions are then fused to obtain a compact and discriminatory representation that ultimately leads to better identification of facial expressions. A regularized dense neural network is trained on these visual attention based features to identify the type of facial expression. Efficacy and robustness of the attention based approach are proved based on the experimental studies on the benchmark JAFFE and CK+ datasets. Proposed VA-CDNN achieved a highest test accuracy of 97.67% and 97.46% on CK+ and JAFFE datasets respectively. Results obtained from the experimental studies reveal that the proposed method using attention based features is comparable to the recent best models with consistently improving performance regardless of the number of expressions being considered for recognition.",
+          ],
+          color: "#9b1578",
+        },
+        {
+          title:
+            "Hinge attention network: A joint model for diabetic retinopathy severity grading",
+          company: "Applied Intelligence",
+          company_url: "https://link.springer.com/journal/10489",
+          logo_path: "springer_small_logo.png",
+          duration: "10/2022",
+          location: "Springer US",
+          full_detailed_link:
+            "https://link.springer.com/article/10.1007/s10489-021-03043-5",
+          description: [
+            "Diabetic Retinopathy is one of the prominent reasons for permanent blindness in working age, long term diabetic patients. With the prevalence in raise of diabetics, majority of the people are endangered to permanent vision loss. The advancements in medical imaging techniques enabled the research community to focus on developing automated and computerized systems for diagnosing retinopathy in early stages. But, it is a very complex challenge due to the presence of high intra-class variations and imbalanced data distribution for higher grades of severity. In recent years, various deep learning based models have been designed for automating the process of retinopathy severity classification. In this research work, we present a fascinating deep learning model with multiple attention stages called Hinge Attention Network (HA-Net). Proposed model consists of a pre-trained VGG16 base to extract initial spatial representation from retinal scan images, spatial attention autoencoder to learn lesion specific latent representations in spatial dimensions and a channel attention based hinge neural network to grab category based discriminative features in channel dimension and classify the severity grade of retinopathy. In addition to spatial and channel attention mechanism, we use Convolutional LSTM layer to prioritize highly important spatial maps before passing to hinge neural network. All these components of HA-Net, enabled it to make generalised and accurate predictions on unseen data. The effectiveness and acceptability of proposed model is proved by validating it using two benchmark datasets, Kaggle APTOS 2019 and ISBI IDRiD. Extensive experimental studies on these datasets reveal that, proposed HA-Net outstrip several existing models by achieving an accuracy of 85.54% on Kaggle APTOS, and an accuracy of 66.41% on IDRiD datasets.",
+          ],
+          color: "#fc1f20",
+        },
+        {
+          title:
+            "Multi-level attention network: application to brain tumor classification",
+          company: "Signal, Image and Video Processing",
+          company_url: "https://link.springer.com/journal/11760",
+          logo_path: "springer_small_logo.png",
+          duration: "4/2022",
+          location: "Springer London",
+          full_detailed_link:
+            "https://link.springer.com/article/10.1007/s11760-021-02022-0",
+          description: [
+            "Brain tumor classification is one of the challenging tasks in the field of medical image analysis. Any faults occurred during brain tumor diagnosis process may result in reduced life span of humans. Automating the process of tumor diagnosis may reduce the number of human errors in diagnosis process. With the recent technological advancements, visual attention for medical image analysis tasks has been widely employed by research community in designing computer-aided diagnosis systems. In this work, we introduce a multi-level attention mechanism for the task of brain tumor recognition. The proposed multi-level attention network (MANet) includes both spatial and cross-channel attention which not only focuses on prioritizing tumor region, but also maintains cross-channel temporal dependencies present in semantic feature sequence obtained from Xception backbone. The performance of proposed approach is evaluated on Figshare and BraTS benchmark datasets. Our experimental studies reveal that, cross-channel attention block along with spatial attention generalizes better and leads to superior performance with fewer model parameters. Our proposed MANet achieved a highest accuracy of 96.51% on Figshare and 94.91% on BraTS’2018 datasets and outperformed several existing models for the tumor recognition task.",
+          ],
+          color: "#fc1f20",
+        },
+        {
+          title:
+            "Transfer learning based novel ensemble classifier for COVID-19 detection from chest CT-scans",
+          company: "Computers in Biology and Medicine",
+          company_url:
+            "https://www.sciencedirect.com/journal/computers-in-biology-and-medicine",
+          logo_path: "elsevier_logo.png",
+          duration: "2/1/2022",
+          location: "Elsevier Pergamon",
+          full_detailed_link:
+            "https://www.sciencedirect.com/science/article/pii/S0010482521009215",
+          description: [
+            "Coronavirus Disease 2019 (COVID-19) is a deadly infection that affects the respiratory organs in humans as well as animals. By 2020, this disease turned out to be a pandemic affecting millions of individuals across the globe. Conducting rapid tests for a large number of suspects preventing the spread of the virus has become a challenge. In the recent past, several deep learning based approaches have been developed for automating the process of detecting COVID-19 infection from Lung Computerized Tomography (CT) scan images. However, most of them rely on a single model prediction for the final decision which may or may not be accurate. In this paper, we propose a novel ensemble approach that aggregates the strength of multiple deep neural network architectures before arriving at the final decision. We use various pre-trained models such as VGG16, VGG19, InceptionV3, ResNet50, ResNet50V2, InceptionResNetV2, Xception, and MobileNet and fine-tune them using Lung CT Scan images. All these trained models are further used to create a strong ensemble classifier that makes the final prediction. Our experiments exhibit that the proposed ensemble approach is superior to existing ensemble approaches and set state-of-the-art results for detecting COVID-19 infection from lung CT scan images.",
+          ],
+          color: "#fc1f20",
+        },
+        {
+          title:
+            "Lesion-aware attention with neural support vector machine for retinopathy diagnosis",
+          company: "Machine Vision and Applications",
+          company_url: "https://link.springer.com/journal/138",
+          logo_path: "springer_small_logo.png",
+          duration: "11/2021",
+          location: "Springer Berlin Heidelberg",
+          full_detailed_link:
+            "https://link.springer.com/article/10.1007/s00138-021-01253-y",
+          description: [
+            "Diabetic retinopathy (DR) is a severe eye disease which can lead to permanent blindness. Identifying DR in early stages by using computer-aided diagnosis (CAD) systems can help the ophthalmologists to give proper treatment rationally, there by preventing many people from going blind. Due to intra-class variations and imbalanced data distribution, it is highly difficult to design a CAD system for DR severity diagnosis with greater generalizability. In this article, we propose a multi-stage deep learning pipeline, lesion-aware attention with neural support vector machine, for diabetic retinopathy diagnosis. Proposed pipeline consists of a pre-trained convolution base for learning retinal image spatial representations, lesion-aware attention for weighting lesion specific features, convolution autoencoder for learning latent attention representations and a neural support vector machine for discrimination. Convolutional autoencoder and neural support vector machine are jointly trained in end-to-end fashion to obtain category based lesion specific latent attention features by complementing each other in re-constructor and discriminator paths. Proposed approach is validated using two benchmark retinal scan image datasets, Kaggle APTOS 2019 and ISBI 2018 IDRiD, for DR type and severity grade classification tasks. Our experimental studies expose that using lesion-aware attention along with the joint training of autoencoder and neural support vector machine boosted the performance of models used for DR diagnosis, thereby outperforming existing works presented in the literature for DR severity grading. Proposed model achieved the highest accuracy of 90.45%, 84.31% on APTOS dataset and an accuracy of 79.85%, 63.24% on IDRiD dataset for DR type and severity grade classification tasks, respectively.",
+          ],
+          color: "#fc1f20",
+        },
+      ],
     },
     {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+      title: "Conferences (1)",
+      experiences: [
+        {
+          title:
+            "Spatial Sequence Attention Network for Schizophrenia Classification from Structural Brain MR Images",
+          company: "International Symposium on Biomedical Imaging",
+          company_url: "https://biomedicalimaging.org/",
+          logo_path: "unknown_logo.png",
+          duration: "02/02/2024",
+          location: "IEEE",
+          description: [
+            "Schizophrenia is a debilitating, chronic mental disorder that significantly impacts an individual's cognitive abilities, behavior, and social interactions. It is characterized by subtle morphological changes in the brain, particularly in the gray matter. These changes are often imperceptible through manual observation, demanding an automated approach to diagnosis. This study introduces a deep learning methodology for the classification of individuals with Schizophrenia. We achieve this by implementing a diversified attention mechanism known as Spatial Sequence Attention (SSA) which is designed to extract and emphasize significant feature representations from structural MRI (sMRI). Initially, we employ the transfer learning paradigm by leveraging pre-trained DenseNet to extract initial feature maps from the final convolutional block which contains morphological alterations associated with Schizophrenia. These features are further processed by the proposed SSA to capture and emphasize intricate spatial interactions and relationships across volumes within the brain. Our experimental studies conducted on a clinical dataset have revealed that the proposed attention mechanism outperforms the existing Squeeze & Excitation Network for Schizophrenia classification.",
+          ],
+          color: "#4285F4",
+        },
+      ],
     },
     {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+      title: "Under Review",
+      experiences: [
+        {
+          title:
+            "Guided Context Gating: Learning to Leverage Salient Lesions in Retinal Fundus Images",
+          company: "IEEE International Conference on Image Processing",
+          company_url:
+            "https://ieeexplore.ieee.org/xpl/conhome/1000349/all-proceedings",
+          logo_path: "unknown_logo.png",
+          duration: "",
+          location: "IEEE",
+          description: [""],
+          color: "#4285F4",
+        },
+        {
+          title:
+            "M3T: Multi-Modal Medical Transformer to bridge Clinical Context with Visual Insights for Retinal Image Medical Description Generation",
+          company: "IEEE International Conference on Image Processing",
+          company_url:
+            "https://ieeexplore.ieee.org/xpl/conhome/1000349/all-proceedings",
+          logo_path: "unknown_logo.png",
+          duration: "",
+          location: "IEEE",
+          description: [""],
+          color: "#4285F4",
+        },
+      ],
     },
   ],
 };
@@ -735,28 +617,21 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "teja.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on Email, LinkedIn and Instagram. You can message me, I will reply within 24 hours. I can help you with ML, AI, Research and Full-stack Development.",
   },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://blogs.ashutoshhathidara.com/",
-    avatar_image_path: "blogs_image.svg",
-  },
+  blogSection: {},
   addressSection: {
     title: "Address",
-    subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
-    locality: "Kanodar",
-    country: "IN",
-    region: "Gujarat",
-    postalCode: "385520",
-    streetAddress: "Ambavadi vas",
+    subtitle: "478 Lindbergh Pl NE, Atlanta, GA-30324, US",
+    locality: "Atlanta",
+    country: "US",
+    region: "Georgia",
+    postalCode: "30324",
+    streetAddress: "478 Lindbergh Pl NE",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    location_map_link: "https://maps.app.goo.gl/PAUaqHH6bqfL9P6h9",
   },
   phoneSection: {
     title: "",
@@ -774,6 +649,7 @@ export {
   degrees,
   certifications,
   experience,
+  research,
   projectsHeader,
   publicationsHeader,
   publications,

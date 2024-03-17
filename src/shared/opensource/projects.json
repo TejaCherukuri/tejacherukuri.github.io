@@ -1,107 +1,95 @@
 {
   "data": [
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "masterPortfolio",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "url": "https://github.com/ashutosh1919/masterPortfolio",
-      "description": "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
+      "id": "R_kgDOLIx-dQ",
+      "name": "RHD",
+      "createdAt": "2024-01-23T21:27:19Z",
+      "url": "https://github.com/RetinalHealthDiagnostics/RHD",
+      "description": "Retinal Health Diagnostics is an Intelligent Computer Aided Diagnostic Application for diagnosing retinal diseases",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOKYtmhA",
+      "name": "Digital-Green-Crop-Yield-Estimate-Challenge",
+      "createdAt": "2023-09-26T21:10:24Z",
+      "url": "https://github.com/Neural-Navigators/Digital-Green-Crop-Yield-Estimate-Challenge",
+      "description": "CSC 8500 Advanced Machine Learning Project",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOH7lr_A",
+      "name": "microservices-fraudcheck-app",
+      "createdAt": "2022-09-03T11:53:07Z",
+      "url": "https://github.com/TejaCherukuri/microservices-fraudcheck-app",
+      "description": "This repository contains the code for a fraud check microservices project developed using modern microservices architecture using Spring Cloud and Docker. ",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Java",
+          "iconifyClass": "logos-java"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOHkEmIg",
+      "name": "spring-boot-blog-application",
+      "createdAt": "2022-06-26T13:46:09Z",
+      "url": "https://github.com/TejaCherukuri/spring-boot-blog-application",
+      "description": "This is Blog Application using SpringBoot, JPA, REST APIS, Spring Security with JWT and Swagger Documentation",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Java",
+          "iconifyClass": "logos-java"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOGKDSZA",
+      "name": "recruitright-services",
+      "createdAt": "2021-10-03T20:44:06Z",
+      "url": "https://github.com/RecruitRight/recruitright-services",
+      "description": "This repository contains the backend services (REST APIs) for our application named \"RecruitRight\". It is a job portal where recruiters can easily identify and hire top profiles matching their needs and requirements.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Java",
+          "iconifyClass": "logos-java"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOJIjjJA",
+      "name": "expense-tracker-app",
+      "createdAt": "2023-03-12T13:25:01Z",
+      "url": "https://github.com/TejaCherukuri/expense-tracker-app",
+      "description": "A simple beginner project to React.js which is used to track your expenses",
       "isFork": false,
       "languages": [
         {
           "name": "HTML",
           "iconifyClass": "logos-html-5"
         },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOG_vYHA",
-      "name": "explainable-cnn",
-      "createdAt": "2022-03-13T20:41:33Z",
-      "url": "https://github.com/ashutosh1919/explainable-cnn",
-      "description": "📦 PyTorch based visualization package for generating layer-wise explanations for CNNs.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOG0_8uQ",
-      "name": "react-awesome-shapes",
-      "createdAt": "2022-02-11T14:50:20Z",
-      "url": "https://github.com/ashutosh1919/react-awesome-shapes",
-      "description": "🌀 Insert Awesome Shapes into Your React Site with Ease.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOGcPKSQ",
-      "name": "neuro-symbolic-sudoku-solver",
-      "createdAt": "2021-11-26T17:56:07Z",
-      "url": "https://github.com/ashutosh1919/neuro-symbolic-sudoku-solver",
-      "description": "⚙️ Solving sudoku using Deep Reinforcement learning in combination with powerful symbolic representations.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkzMjcyMjI5Njk=",
-      "name": "react-awesome-loaders",
-      "createdAt": "2021-01-06T06:36:41Z",
-      "url": "https://github.com/ashutosh1919/react-awesome-loaders",
-      "description": "🚀  High quality, super responsive and completely customisable Loading Animations to insert into your website with single line of code.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "react-liquidswipe",
-      "createdAt": "2021-01-01T08:31:51Z",
-      "url": "https://github.com/ashutosh1919/react-liquidswipe",
-      "description": "🚀 Smooth Liquid Swipe Animation to transition between different components.",
-      "isFork": false,
-      "languages": [
         {
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
