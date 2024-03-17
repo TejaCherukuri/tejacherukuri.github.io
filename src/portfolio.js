@@ -63,7 +63,7 @@ const socialMediaLinks = [
     name: "Google Scholar",
     link: "https://scholar.google.com/citations?hl=en&user=6S9WmqwAAAAJ",
     fontAwesomeIcon: "fa-book", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+    backgroundColor: "#4285F4", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "Instagram",
@@ -463,7 +463,7 @@ const research = {
   title: "Research",
   subtitle: "",
   description:
-    "I am an active researcher in the field of Deep Learning, Computer Vision and NLP.  My research works mainly focusses on budiling computer aided diagnostic tools for medical imaging problems in the field of healthcare. My passion is to use the tech to make the healthcare powerful and more accessible.",
+    "An active researcher in Deep Learning, Computer Vision, and Natural Language Processing, dedicated to build intelligent vision and language models. My focus is on revolutionizing the medical domain, by developing innovative AI-driven solutions for complex problems ensuring accurate diagnosis and treatment with transparency and explainability.",
   header_image_path: "experience.svg",
   sections: [
     {
