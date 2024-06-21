@@ -92,4 +92,10 @@
     display: flex;
     justify-content: center;
   }
+
+  .resume-btn-div-1 {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+  }
 }
