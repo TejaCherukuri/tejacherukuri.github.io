@@ -345,20 +345,22 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Graduate Research Assistant",
+          title: "Data Scientist (Graduate Research Assistant)",
           company: "TReNDS Center",
           company_url: "https://trendscenter.org/",
           logo_path: "trends_small_logo.png",
           duration: "Dec 2023 - Present",
           location: "Atlanta, GA",
           description: [
-            "Cancer Assist: Currently working towards developing an ML framework for an intra-operative intelligent system aiding surgeons in cancer surgery.",
-            "Attention Network: Designed and implemented a novel attention mechanism that captures disease-specific regions from Brain MR images for Schizophrenia diagnosis, improving the system’s precision by 8%.",
+            "Multi-modal Medical Transformer: Created a vision-language model integrating retinal image features & clinical keyword embeddings, achieving a 13.5% improvement in BLEU@4 over GPT-2 for accurate diagnostic report generation.",
+            "Guided Context Gating: Developed a novel attention model to improve context learning in retinal images, boosting accuracy by 2.63% over advanced attention methods & 6.53% over Vision Transformer, enhancing retinopathy diagnosis.",
+            "Multi-modal Imaging Genomics Transformer: Designed a fusion model combining genomics with sMRI & fMRI, enhancing schizophrenia diagnosis accuracy by 2.12% and revealing key neuroanatomical and genetic markers associated.",
+            "Spatial Sequence Attention Network: Implemented a novel attention model to identify Schizophrenia specific regions in brain sMRI, enhancing diagnosis accuracy by 6.52% enhancing clinical interpretability with neuroanatomical insights.",
           ],
           color: "#0879bf",
         },
         {
-          title: "Graduate Research Assistant",
+          title: "Software Engineer (Graduate Research Assistant)",
           company: "Georgia State University",
           company_url: "https://www.gsu.edu/",
           logo_path: "gsu_small_logo.png",
@@ -366,6 +368,7 @@ const experience = {
           location: "Atlanta, GA",
           description: [
             "Designed and implemented a secure user management system for a fire spread simulation application, utilizing React.js and Spring Security with JWT and OAuth 2.0, following modern web security practices",
+            "Deployed applications to AWS ECS using Docker containers, optimizing resource allocation and achieving a 20% reduction in deployment time. Managed efficient storage with AWS S3 and streamlined access permissions using AWS IAM policies.",
           ],
           color: "#9b1578",
         },
@@ -377,10 +380,11 @@ const experience = {
           duration: "Apr 2022 - Aug 2023",
           location: "Hyderabad, Telangana",
           description: [
-            "Optimized the data processing pipeline to load, clean, and transform banking customer data, resulting in a 25% reduction in data extraction time and a 15% decrease in operational expenses.",
-            "Fraud Filter: Brainstormed & developed an Machine Learning (ML) model to detect transactional irregularities from a pool of customer data, achieving a 20% reduction in fraudulent activities.",
-            "Savings Plan Recommender: Implemented a TensorFlow-driven hybrid collaborative filtering for personalized recommendations on Budget Savings Plan using customers’ financial history, leading to a 36% surge in new enrollments.",
-            "Contributed to building ML model deployment pipelines with MLFlow and Azure DevOps, achieving a 25% reduction in deployment time and ensuring smooth integration between model development and production environments.",
+            "Banking Assistant: Designed a novel system architecture with Large Language Model (GPT) to answer banking customer queries using Huggingface APIs, resulting in a 25% increase in query resolution accuracy and a 30% reduction in customer service response time.",
+            "Fraud Filter: Architected a scalable ML system for fraud detection using PyTorch, enhancing processing efficiency by 30% and decreasing fraudulent activities by 20%.",
+            "Data loader: Developed & optimized data pipelines for banking customer data, reducing operational overhead by 35%.",
+            "Deployer: Contributed to building ML model deployment pipelines with MLFlow & Azure DevOps, achieving a 25% reduction in deployment time, ensuring smooth integration between model development & production environments.",
+            "Collaborated with product, engineering, and analytics teams to integrate AI functionalities for product enhancement.",
           ],
           color: "#fc1f20",
         },
@@ -395,6 +399,7 @@ const experience = {
             "Designed & implemented REST APIs using Spring Boot, enhancing scalability and boosting API response times by 30%. Integrated React.js for a responsive UI, ensuring a user-friendly experience and reducing rendering latency by 20%.",
             "Transformed the corporate actions application from a monolithic to a microservices architecture in Java, resulting in $2 million in client savings and substantial improvements in functionality and efficiency.",
             "Auto Deployment: Increased application availability by migrating to a private cloud, while achieving a 50% budget optimization through automated build and deployment workflows with Git, Jenkins, Docker, and Kubernetes.",
+            "Auto Scheduling: Developed Linux scripts for scheduled batch jobs, reducing manual intervention, resulting in a 30% decrease in operational costs and a 20% time savings.",
           ],
           color: "#fc1f20",
         },
@@ -419,8 +424,8 @@ const experience = {
       experiences: [
         {
           title: "Paper Reviewer",
-          company: "Qeios",
-          company_url: "https://www.qeios.com/",
+          company: "IEEE Organization",
+          company_url: "https://www.ieeetmi.org/",
           logo_path: "unknown_logo.png",
           duration: "Feb 2024 - Present",
           location: "Hyderabad, Telangana",
@@ -467,12 +472,27 @@ const research = {
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Journals (6)",
+      title: "Journals (7)",
       work: true,
       experiences: [
         {
           title:
-            "Gated contextual transformer network for multi-modal retinal image clinical description generation",
+            "MedTransNet: Advanced Gating Transformer Network for Medical Image Classification",
+          company: "Machine Vision and Applications 35 (4), 73",
+          company_url: "https://link.springer.com/journal/138",
+          logo_path: "springer_small_logo.png",
+          duration: "05/29/2024",
+          location: "Springer Berlin Heidelberg",
+          full_detailed_link:
+            "https://link.springer.com/article/10.1007/s00138-024-01542-2",
+          description: [
+            "Accurate medical image classification poses a significant challenge in designing expert computer-aided diagnosis systems. While deep learning approaches have shown remarkable advancements over traditional techniques, addressing inter-class similarity and intra-class dissimilarity across medical imaging modalities remains challenging. This work introduces the advanced gating transformer network (MedTransNet), a deep learning model tailored for precise medical image classification. MedTransNet utilizes channel and multi-gate attention mechanisms, coupled with residual interconnections, to learn category-specific attention representations from diverse medical imaging modalities. Additionally, the use of gradient centralization during training helps in preventing overfitting and improving generalization, which is especially important in medical imaging applications where the availability of labeled data is often limited. Evaluation on benchmark datasets, including APTOS-2019, Figshare, and SARS-CoV-2, demonstrates effectiveness of the proposed MedTransNet across tasks such as diabetic retinopathy severity grading, multi-class brain tumor classification, and COVID-19 detection. Experimental results showcase MedTransNet achieving 85.68% accuracy for retinopathy grading, 98.37% for tumor classification, and 99.60% for COVID-19 detection, surpassing recent deep learning models. MedTransNet holds promise for significantly improving medical image classification accuracy.",
+          ],
+          color: "#0879bf",
+        },
+        {
+          title:
+            "Gated Contextual Transformer Network for Multi-modal Retinal Image Clinical Description Generation",
           company: "Image and Vision Computing",
           company_url:
             "https://www.sciencedirect.com/journal/image-and-vision-computing",
@@ -488,7 +508,7 @@ const research = {
         },
         {
           title:
-            "Visual attention based composite dense neural network for facial expression recognition",
+            "Visual Attention based Composite Dense Neural Network for Facial Expression Recognition",
           company: "Journal of Ambient Intelligence and Humanized Computing",
           company_url: "https://link.springer.com/journal/12652",
           logo_path: "springer_small_logo.png",
@@ -503,7 +523,7 @@ const research = {
         },
         {
           title:
-            "Hinge attention network: A joint model for diabetic retinopathy severity grading",
+            "Hinge Attention Network: A Joint Model for Diabetic Retinopathy Severity Grading",
           company: "Applied Intelligence",
           company_url: "https://link.springer.com/journal/10489",
           logo_path: "springer_small_logo.png",
@@ -518,7 +538,7 @@ const research = {
         },
         {
           title:
-            "Multi-level attention network: application to brain tumor classification",
+            "Multi-level Attention Network: Application to Brain Tumor Classification",
           company: "Signal, Image and Video Processing",
           company_url: "https://link.springer.com/journal/11760",
           logo_path: "springer_small_logo.png",
@@ -533,7 +553,7 @@ const research = {
         },
         {
           title:
-            "Transfer learning based novel ensemble classifier for COVID-19 detection from chest CT-scans",
+            "Transfer Learning based Novel Ensemble Classifier for COVID-19 Detection from Chest CT-scans",
           company: "Computers in Biology and Medicine",
           company_url:
             "https://www.sciencedirect.com/journal/computers-in-biology-and-medicine",
@@ -549,7 +569,7 @@ const research = {
         },
         {
           title:
-            "Lesion-aware attention with neural support vector machine for retinopathy diagnosis",
+            "Lesion-aware Attention with Neural Support Vector Machine for Retinopathy Diagnosis",
           company: "Machine Vision and Applications",
           company_url: "https://link.springer.com/journal/138",
           logo_path: "springer_small_logo.png",
@@ -565,16 +585,48 @@ const research = {
       ],
     },
     {
-      title: "Conferences (1)",
+      title: "Conferences (3)",
       experiences: [
         {
           title:
+            "Guided Context Gating: Learning to Leverage Salient Lesions in Retinal Fundus Images",
+          company:
+            "Proceedings of the IEEE International Conference on Image Processing (ICIP), IEEE, 2024",
+          company_url: "https://2024.ieeeicip.org/",
+          logo_path: "unknown_logo.png",
+          duration: "06/07/2024",
+          location: "IEEE",
+          full_detailed_link: "https://arxiv.org/abs/2406.13126",
+          description: [
+            "Effectively representing medical images, especially retinal images, presents a considerable challenge due to variations in appearance, size, and contextual information of pathological signs called lesions. Precise discrimination of these lesions is crucial for diagnosing vision-threatening issues such as diabetic retinopathy. While visual attention-based neural networks have been introduced to learn spatial context and channel correlations from retinal images, they often fall short in capturing localized lesion context. Addressing this limitation, we propose a novel attention mechanism called Guided Context Gating, an unique approach that integrates Context Formulation, Channel Correlation, and Guided Gating to learn global context, spatial correlations, and localized lesion context. Our qualitative evaluation against existing attention mechanisms emphasize the superiority of Guided Context Gating in terms of explainability. Notably, experiments on the Zenodo-DR-7 dataset reveal a substantial 2.63% accuracy boost over advanced attention mechanisms & an impressive 6.53% improvement over the state-of-the-art Vision Transformer for assessing the severity grade of retinopathy, even with imbalanced and limited training samples for each class.",
+          ],
+          color: "#4285F4",
+        },
+        {
+          title:
+            "M3T: Multi-Modal Medical Transformer to bridge Clinical Context with Visual Insights for Retinal Image Medical Description Generation",
+          company:
+            "Proceedings of the IEEE International Conference on Image Processing (ICIP), IEEE, 2024",
+          company_url: "https://2024.ieeeicip.org/",
+          logo_path: "unknown_logo.png",
+          duration: "06/07/2024",
+          location: "IEEE",
+          full_detailed_link: "https://arxiv.org/abs/2406.13129",
+          description: [
+            "Automated retinal image medical description generation is crucial for streamlining medical diagnosis and treatment planning. Existing challenges include the reliance on learned retinal image representations, difficulties in handling multiple imaging modalities, and the lack of clinical context in visual representations. Addressing these issues, we propose the Multi-Modal Medical Transformer (M3T), a novel deep learning architecture that integrates visual representations with diagnostic keywords. Unlike previous studies focusing on specific aspects, our approach efficiently learns contextual information and semantics from both modalities, enabling the generation of precise and coherent medical descriptions for retinal images. Experimental studies on the DeepEyeNet dataset validate the success of M3T in meeting ophthalmologists' standards, demonstrating a substantial 13.5% improvement in BLEU@4 over the best-performing baseline model.",
+          ],
+          color: "#4285F4",
+        },
+        {
+          title:
             "Spatial Sequence Attention Network for Schizophrenia Classification from Structural Brain MR Images",
-          company: "International Symposium on Biomedical Imaging",
+          company:
+            "International Symposium on Biomedical Imaging (ISBI), IEEE, 2024",
           company_url: "https://biomedicalimaging.org/",
           logo_path: "unknown_logo.png",
           duration: "02/02/2024",
           location: "IEEE",
+          full_detailed_link: "https://arxiv.org/abs/2406.12683",
           description: [
             "Schizophrenia is a debilitating, chronic mental disorder that significantly impacts an individual's cognitive abilities, behavior, and social interactions. It is characterized by subtle morphological changes in the brain, particularly in the gray matter. These changes are often imperceptible through manual observation, demanding an automated approach to diagnosis. This study introduces a deep learning methodology for the classification of individuals with Schizophrenia. We achieve this by implementing a diversified attention mechanism known as Spatial Sequence Attention (SSA) which is designed to extract and emphasize significant feature representations from structural MRI (sMRI). Initially, we employ the transfer learning paradigm by leveraging pre-trained DenseNet to extract initial feature maps from the final convolutional block which contains morphological alterations associated with Schizophrenia. These features are further processed by the proposed SSA to capture and emphasize intricate spatial interactions and relationships across volumes within the brain. Our experimental studies conducted on a clinical dataset have revealed that the proposed attention mechanism outperforms the existing Squeeze & Excitation Network for Schizophrenia classification.",
           ],
@@ -585,30 +637,30 @@ const research = {
     {
       title: "Under Review",
       experiences: [
-        {
-          title:
-            "Guided Context Gating: Learning to Leverage Salient Lesions in Retinal Fundus Images",
-          company: "IEEE International Conference on Image Processing",
-          company_url:
-            "https://ieeexplore.ieee.org/xpl/conhome/1000349/all-proceedings",
-          logo_path: "unknown_logo.png",
-          duration: "",
-          location: "IEEE",
-          description: [""],
-          color: "#4285F4",
-        },
-        {
-          title:
-            "M3T: Multi-Modal Medical Transformer to bridge Clinical Context with Visual Insights for Retinal Image Medical Description Generation",
-          company: "IEEE International Conference on Image Processing",
-          company_url:
-            "https://ieeexplore.ieee.org/xpl/conhome/1000349/all-proceedings",
-          logo_path: "unknown_logo.png",
-          duration: "",
-          location: "IEEE",
-          description: [""],
-          color: "#4285F4",
-        },
+        // {
+        //   title:
+        //     "Guided Context Gating: Learning to Leverage Salient Lesions in Retinal Fundus Images",
+        //   company: "IEEE International Conference on Image Processing",
+        //   company_url:
+        //     "https://ieeexplore.ieee.org/xpl/conhome/1000349/all-proceedings",
+        //   logo_path: "unknown_logo.png",
+        //   duration: "",
+        //   location: "IEEE",
+        //   description: [""],
+        //   color: "#4285F4",
+        // },
+        // {
+        //   title:
+        //     "M3T: Multi-Modal Medical Transformer to bridge Clinical Context with Visual Insights for Retinal Image Medical Description Generation",
+        //   company: "IEEE International Conference on Image Processing",
+        //   company_url:
+        //     "https://ieeexplore.ieee.org/xpl/conhome/1000349/all-proceedings",
+        //   logo_path: "unknown_logo.png",
+        //   duration: "",
+        //   location: "IEEE",
+        //   description: [""],
+        //   color: "#4285F4",
+        // },
       ],
     },
   ],
