@@ -466,6 +466,46 @@ const publications = {
 };
 
 // Research Page
+const researchSites = {
+  researchSites: [
+    {
+      siteName: "Google Scholar",
+      iconifyClassname: "simple-icons:googlescholar",
+      style: {
+        color: "#4285F4",
+      },
+      profileLink:
+        "https://scholar.google.com/citations?user=6S9WmqwAAAAJ&hl=en",
+    },
+    {
+      siteName: "ORCiD",
+      iconifyClassname: "simple-icons:orcid",
+      style: {
+        color: "#A6CE39",
+      },
+      profileLink: "https://orcid.org/0000-0002-4952-728X",
+    },
+    {
+      siteName: "Web of Science",
+      iconifyClassname: "simple-icons:clarivate",
+      style: {
+        color: "#2A2A84",
+      },
+      profileLink:
+        "https://www.webofscience.com/wos/author/record/KEJ-6069-2024",
+    },
+    {
+      siteName: "Research Gate",
+      iconifyClassname: "simple-icons:researchgate",
+      style: {
+        color: "#6F6F6F",
+      },
+      profileLink:
+        "https://www.researchgate.net/profile/Teja-Krishna-Cherukuri",
+    },
+  ],
+};
+
 const research = {
   title: "Research",
   subtitle: "",
@@ -704,6 +744,7 @@ export {
   degrees,
   certifications,
   experience,
+  researchSites,
   research,
   projectsHeader,
   publicationsHeader,

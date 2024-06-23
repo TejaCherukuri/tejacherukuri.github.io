@@ -7,6 +7,8 @@ import "./Experience.css";
 import { research } from "../../portfolio.js";
 import { Fade } from "react-reveal";
 import ExperienceImg from "./ExperienceImg";
+import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites";
+import { researchSites } from "../../portfolio";
 
 class Research extends Component {
   render() {
@@ -39,6 +41,7 @@ class Research extends Component {
                 >
                   {research["description"]}
                 </p>
+                <CompetitiveSites logos={researchSites.researchSites} />
               </div>
             </div>
           </Fade>
