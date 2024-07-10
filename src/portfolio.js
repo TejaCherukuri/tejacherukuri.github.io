@@ -24,8 +24,10 @@ const greeting = {
   // nickname: "",
   subTitle:
     "Passionate developer and researcher, dedicated to crafting end-to-end products that make a lasting impact on society.",
-  resumeLink:
+  resumeLinkSinglePage:
     "https://drive.google.com/file/d/14qWwb0AgXpbS_07bKVAC3aAhyh636PS9/view?usp=sharing",
+  resumeLink:
+    "https://drive.google.com/file/d/1DFedM4ae7F3IAA1JAewVOorCCNMfkeWJ/view?usp=drive_link",
   portfolio_repository:
     "https://github.com/tejacherukuri/tejacherukuri.github.io",
   githubProfile: "https://github.com/tejacherukuri",

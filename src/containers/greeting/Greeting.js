@@ -31,7 +31,14 @@ export default function Greeting(props) {
               <SocialMedia theme={theme} />
               <div className="resume-btn-div-1">
                 <Button
-                  text="See My Resume"
+                  text="1 Page Resume"
+                  newTab={true}
+                  href={greeting.resumeLinkSinglePage}
+                  theme={theme}
+                />
+                {/* <div style={{ height: '5px', width: '5%', clear: 'both' }}></div> Spacer div */}
+                <Button
+                  text="Full Resume"
                   newTab={true}
                   href={greeting.resumeLink}
                   theme={theme}
