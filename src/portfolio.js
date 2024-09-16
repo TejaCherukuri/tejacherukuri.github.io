@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Passionate developer and researcher, dedicated to crafting end-to-end products that make a lasting impact on society.",
   resumeLinkSinglePage:
-    "https://drive.google.com/file/d/14qWwb0AgXpbS_07bKVAC3aAhyh636PS9/view?usp=sharing",
+    "https://drive.google.com/file/d/1mF2jQJ60iwh4tI7X7ucaNman3PaWLhPK/view?usp=sharing",
   resumeLink:
     "https://drive.google.com/file/d/1DFedM4ae7F3IAA1JAewVOorCCNMfkeWJ/view?usp=drive_link",
   portfolio_repository:
@@ -290,7 +290,7 @@ const degrees = {
       duration: "2023 - 2024 (Expected)",
       descriptions: [
         "⚡ I have taken variety of courses related to Artificial Intelligence which correspond to Natural Language Processing, Advanced Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. I have worked on creating multi-modal fusion transformers for Schizophrenia Classification",
+        "⚡ Apart from this, I have also done research assistantship. I have worked on designing and developing multi-modal fusion techniques, attention mechanisms for solving various medical imaging problems. ",
       ],
       website_link: "https://www.gsu.edu/",
     },
@@ -354,7 +354,9 @@ const experience = {
           duration: "Dec 2023 - Present",
           location: "Atlanta, GA",
           description: [
-            "Multi-Modal Medical Transformer: Devised a vision-language model integrating retinal image features & clinical keywords, achieving a 13.5% improvement in BLEU-4 over GPT-2 for accurate diagnostic report generation.",
+            "Imaging Genomic Processing: Architected PySpark workflows to process 12 TB of genomic and imaging data from multi-site clinical studies, cutting data processing time by 60%, and enabling rapid analysis that supported a $3M NIH grant for precision medicine research.",
+            "Image-Biomarker Extraction: Formulated image-text datasets by extracting key images and biomarkers from 500,000 research articles, boosting data quality and medical report generation accuracy by 20%.",
+            "Multi-Modal Medical Transformer: Devised a vision-language model integrating retinal image features & clinical keywords, achieving a 13.5% improvement in BLEU-4 over GPT-2 for accurate diagnostic report generation and improving explainability by visualizing attention to diseased regions.",
             "Guided Context Gating: Innovated a novel attention model to improve context learning in retinal images, boosting accuracy by 2.63% over advanced attention methods & 6.53% over Vision Transformer, enhancing retinopathy diagnosis.",
             "Spatial Sequence Attention Network: Formulated a unique attention mechanism to identify Schizophrenia specific regions in brain sMRI, improving diagnosis accuracy by 6.52% and clinical interpretability with neuroanatomical insights.",
             "Multi-Modal Imaging Genomics Transformer: Designed a fusion model combining genomics with sMRI & fMRI, bettering Schizophrenia diagnosis accuracy by 2.12% and revealing associated genetic markers.",
@@ -379,13 +381,16 @@ const experience = {
           company: "Tata Consultancy Services Limited",
           company_url: "https://www.tcs.com/",
           logo_path: "tcs_small_logo1.png",
-          duration: "Apr 2022 - Aug 2023",
+          duration: "Apr 2021 - Aug 2023",
           location: "Hyderabad, Telangana",
           description: [
-            "Banking Assistant: Engineered an innovative system leveraging a Large Language Model (GPT) and Huggingface APIs to address banking customer queries, boosting query resolution accuracy by 25%, reducing customer service response time, and doubling the customer satisfaction index.",
+            "DataStream Optimization Engine: Engineered ETL pipelines for large-scale datasets, boosting data storage efficiency by 10%, cutting computational costs, and enabling rapid data fetching through optimized transformation and loading.",
+            "Financial Risk Analytics Platform: Developed and trained a comprehensive machine learning system for customer churn prediction, loan approval, and fraud detection, achieving a 25% improvement in accuracy and a 15% reduction in false positives, which prevented an estimated $25 million in potential fraud losses.",
+            "Cloud ML App Deployer: Configured cloud-based build and deployment pipelines for seamless integration and maintenance of machine learning models, ensuring a 30% faster deployment cycle and 99.9% uptime for production systems.",
+            "App Pulse Monitoring System: Monitored application performance to detect critical issues in real-time, implementing drift detection mechanisms that reduced incident response time by 50% and enhanced model reliability.",
+            "Transactions Insights Dashboard: Created an interactive dashboard to visualize transaction trends, enabling real-time data analysis and uncovering actionable insights that led to a 20% increase in operational efficiency.",
             "Fraud Filter: Architected a scalable ML system for fraud detection using PyTorch, reducing fraudulent activities by 20% resulting in an annual savings of $0.5 million.",
-            "Data loader: Developed & optimized data pipeline for banking customer data, reducing operational overhead by 35%.",
-            "Deployer: Streamlined ML model deployment pipelines with MLFlow & Azure DevOps, achieving a 25% reduction in deployment time, ensuring smooth integration between model development & production environments.",
+            "Customer Support Automation: Implemented an intelligent chatbot integrated with Large Language Models to handle customer queries in banking, achieving a 40% reduction in resolution time and improving customer satisfaction by 2x times.",
             "Cross-Functional Collaboration: Partnered with various teams to integrate AI features for product enhancement.",
           ],
           color: "#fc1f20",
@@ -395,7 +400,7 @@ const experience = {
           company: "Tata Consultancy Services Limited",
           company_url: "https://www.tcs.com/",
           logo_path: "tcs_small_logo1.png",
-          duration: "Nov 2021 - Apr 2022",
+          duration: "Nov 2020 - Apr 2021",
           location: "Hyderabad, Telangana",
           description: [
             "Designed & implemented REST APIs using Spring Boot, enhancing scalability and boosting API response times by 30%. Integrated React.js for a responsive UI, ensuring a user-friendly experience and reducing rendering latency by 20%.",
@@ -512,7 +517,7 @@ const research = {
   title: "Research",
   subtitle: "",
   description:
-    "An active researcher in Deep Learning, Computer Vision, and Natural Language Processing, dedicated to build intelligent vision and language models. My focus is on revolutionizing the medical domain, by developing innovative AI-driven solutions for complex problems ensuring accurate diagnosis and treatment with transparency and explainability.",
+    "An active researcher in Deep Learning, Computer Vision, and Natural Language Processing, dedicated to build intelligent vision and language models. My focus is on revolutionizing the medical domain, by developing innovative AI-driven solutions for complex problems ensuring accurate diagnosis and treatment with transparency and explainability. ",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -629,8 +634,23 @@ const research = {
       ],
     },
     {
-      title: "Conferences (3)",
+      title: "Conferences (4)",
       experiences: [
+        {
+          title:
+            "Multi-modal Imaging Genomics Transformer: Attentive Integration of Imaging with Genomic Biomarkers for Schizophrenia Classification",
+          company:
+            "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2024",
+          company_url: "https://conferences.miccai.org/2024/en/",
+          logo_path: "unknown_logo.png",
+          duration: "07/28/2024",
+          location: "MICCAI",
+          full_detailed_link: "https://arxiv.org/pdf/2407.19385",
+          description: [
+            "Schizophrenia (SZ) is a severe brain disorder marked by diverse cognitive impairments, abnormalities in brain structure, function, and genetic factors. Its complex symptoms and overlap with other psychiatric conditions challenge traditional diagnostic methods, necessitating advanced systems to improve precision. Existing research studies have mostly focused on imaging data, such as structural and functional MRI, for SZ diagnosis. There has been less focus on the integration of genomic features despite their potential in identifying heritable SZ traits. In this study, we introduce a Multi-modal Imaging Genomics Transformer (MIGTrans), that attentively integrates genomics with structural and functional imaging data to capture SZ-related neuroanatomical and connectome abnormalities. MIGTrans demonstrated improved SZ classification performance with an accuracy of 86.05% (±0.02), offering clear interpretations and identifying significant genomic locations and brain morphological/connectivity patterns associated with SZ.",
+          ],
+          color: "#4285F4",
+        },
         {
           title:
             "Guided Context Gating: Learning to Leverage Salient Lesions in Retinal Fundus Images",
@@ -679,7 +699,7 @@ const research = {
       ],
     },
     {
-      title: "Under Review",
+      title: "Under Review (2)",
       experiences: [
         // {
         //   title:
