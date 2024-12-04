@@ -46,7 +46,7 @@ class Contact extends Component {
                   <Button
                     text="Resume"
                     newTab={true}
-                    href={greeting.resumeLinkSinglePage}
+                    href={greeting.resumeLink}
                     theme={theme}
                   />
                   <div

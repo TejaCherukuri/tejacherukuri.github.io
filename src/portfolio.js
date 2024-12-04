@@ -27,7 +27,7 @@ const greeting = {
   resumeLinkSinglePage:
     "https://drive.google.com/file/d/1mF2jQJ60iwh4tI7X7ucaNman3PaWLhPK/view?usp=sharing",
   resumeLink:
-    "https://drive.google.com/file/d/1DFedM4ae7F3IAA1JAewVOorCCNMfkeWJ/view?usp=drive_link",
+    "https://drive.google.com/file/d/1bLksQ13nlSQVH5lIkPQthXFjqmLHLat3/view?usp=sharing",
   portfolio_repository:
     "https://github.com/tejacherukuri/tejacherukuri.github.io",
   githubProfile: "https://github.com/tejacherukuri",
@@ -351,12 +351,11 @@ const experience = {
           company: "TReNDS Center",
           company_url: "https://trendscenter.org/",
           logo_path: "trends_small_logo.png",
-          duration: "Dec 2023 - Present",
+          duration: "Oct 2023 - Present",
           location: "Atlanta, GA",
           description: [
-            "Imaging Genomic Processing: Architected PySpark workflows to process 12 TB of genomic and imaging data from multi-site clinical studies, cutting data processing time by 60%, and enabling rapid analysis that supported a $3M NIH grant for precision medicine research.",
-            "Image-Biomarker Extraction: Formulated image-text datasets by extracting key images and biomarkers from 500,000 research articles, boosting data quality and medical report generation accuracy by 20%.",
-            "Multi-Modal Medical Transformer: Devised a vision-language model integrating retinal image features & clinical keywords, achieving a 13.5% improvement in BLEU-4 over GPT-2 for accurate diagnostic report generation and improving explainability by visualizing attention to diseased regions.",
+            "Medical Vision Language Transformer: Pioneered a novel approach for resource-constrained environments, integrating Abstractor & Adaptor to enhance feature focus and fusion, achieving expert-level precision in medical image captioning.",
+            "Multi-Modal Medical Transformer: Devised a vision-language model integrating retinal image features & clinical keywords, achieving a 13.5% improvement in BLEU-4 over GPT-2 for accurate diagnostic report generation.",
             "Guided Context Gating: Innovated a novel attention model to improve context learning in retinal images, boosting accuracy by 2.63% over advanced attention methods & 6.53% over Vision Transformer, enhancing retinopathy diagnosis.",
             "Spatial Sequence Attention Network: Formulated a unique attention mechanism to identify Schizophrenia specific regions in brain sMRI, improving diagnosis accuracy by 6.52% and clinical interpretability with neuroanatomical insights.",
             "Multi-Modal Imaging Genomics Transformer: Designed a fusion model combining genomics with sMRI & fMRI, bettering Schizophrenia diagnosis accuracy by 2.12% and revealing associated genetic markers.",
@@ -381,7 +380,7 @@ const experience = {
           company: "Tata Consultancy Services Limited",
           company_url: "https://www.tcs.com/",
           logo_path: "tcs_small_logo1.png",
-          duration: "Apr 2021 - Aug 2023",
+          duration: "Nov 2020 - Aug 2023",
           location: "Hyderabad, Telangana",
           description: [
             "DataStream Optimization Engine: Engineered ETL pipelines for large-scale datasets, boosting data storage efficiency by 10%, cutting computational costs, and enabling rapid data fetching through optimized transformation and loading.",
@@ -395,21 +394,21 @@ const experience = {
           ],
           color: "#fc1f20",
         },
-        {
-          title: "Software Engineer",
-          company: "Tata Consultancy Services Limited",
-          company_url: "https://www.tcs.com/",
-          logo_path: "tcs_small_logo1.png",
-          duration: "Nov 2020 - Apr 2021",
-          location: "Hyderabad, Telangana",
-          description: [
-            "Designed & implemented REST APIs using Spring Boot, enhancing scalability and boosting API response times by 30%. Integrated React.js for a responsive UI, ensuring a user-friendly experience and reducing rendering latency by 20%.",
-            "Transformed the corporate actions application from a monolithic to a microservices architecture in Java, resulting in $2 million in client savings and substantial improvements in functionality and efficiency.",
-            "Auto Deployment: Increased application availability by migrating to a private cloud, while achieving a 50% budget optimization through automated build and deployment workflows with Git, Jenkins, Docker, and Kubernetes.",
-            "Auto Scheduling: Developed Linux scripts for scheduled batch jobs, reducing manual intervention, resulting in a 30% decrease in operational costs and a 20% time savings.",
-          ],
-          color: "#fc1f20",
-        },
+        // {
+        //   title: "Software Engineer",
+        //   company: "Tata Consultancy Services Limited",
+        //   company_url: "https://www.tcs.com/",
+        //   logo_path: "tcs_small_logo1.png",
+        //   duration: "Nov 2020 - Apr 2021",
+        //   location: "Hyderabad, Telangana",
+        //   description: [
+        //     "Designed & implemented REST APIs using Spring Boot, enhancing scalability and boosting API response times by 30%. Integrated React.js for a responsive UI, ensuring a user-friendly experience and reducing rendering latency by 20%.",
+        //     "Transformed the corporate actions application from a monolithic to a microservices architecture in Java, resulting in $2 million in client savings and substantial improvements in functionality and efficiency.",
+        //     "Auto Deployment: Increased application availability by migrating to a private cloud, while achieving a 50% budget optimization through automated build and deployment workflows with Git, Jenkins, Docker, and Kubernetes.",
+        //     "Auto Scheduling: Developed Linux scripts for scheduled batch jobs, reducing manual intervention, resulting in a 30% decrease in operational costs and a 20% time savings.",
+        //   ],
+        //   color: "#fc1f20",
+        // },
       ],
     },
     // {
@@ -431,13 +430,27 @@ const experience = {
       experiences: [
         {
           title: "Paper Reviewer",
-          company: "IEEE Organization",
-          company_url: "https://www.ieeetmi.org/",
+          company: "",
+          company_url: "",
           logo_path: "unknown_logo.png",
-          duration: "Feb 2024 - Present",
-          location: "Hyderabad, Telangana",
+          duration: "Dec 2023 - Present",
+          location: "Remote",
           description: [
-            "Reviews Journal Papers in the domains of Medical Imaging, Computer Vision, Natural Language Processing, and Deep Learning",
+            "IEEE Transactions in Medical Imaging (2023-Present): 2",
+            "IEEE International Symposium on Biomedical Imaging 2025: 2",
+          ],
+          color: "#4285F4",
+        },
+        {
+          title: "Member",
+          company: "Indian Student Organization (ISO)",
+          company_url: "https://pin.gsu.edu/organization/iso",
+          logo_path: "unknown_logo.png",
+          duration: "Aug 2023 - Present",
+          location: "Atlanta, GA",
+          description: [
+            "Helping new international students with the accomodation, food as they navigate their life in the country.",
+            "Organizing cultural events to foster cross-cultural experiences between students from diverse countries.",
           ],
           color: "#4285F4",
         },
@@ -513,11 +526,12 @@ const researchSites = {
   ],
 };
 
+// Research Page
 const research = {
   title: "Research",
   subtitle: "",
   description:
-    "An active researcher in Deep Learning, Computer Vision, and Natural Language Processing, dedicated to build intelligent vision and language models. My focus is on revolutionizing the medical domain, by developing innovative AI-driven solutions for complex problems ensuring accurate diagnosis and treatment with transparency and explainability. ",
+    "I am an active researcher in the field of Deep Learning, Computer Vision and NLP.  My research work mainly focusses on budiling computer aided diagnostic tools for medical imaging problems through multi-modal learning, novel attention mechanisms and the development of interpretable AI systems.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -526,11 +540,11 @@ const research = {
       experiences: [
         {
           title:
-            "MedTransNet: Advanced Gating Transformer Network for Medical Image Classification",
-          company: "Machine Vision and Applications 35 (4), 73",
+            "MedTransNet: Advanced Gating Transformer Network For Medical Image Classification",
+          company: "Machine Vision and Applications",
           company_url: "https://link.springer.com/journal/138",
           logo_path: "springer_small_logo.png",
-          duration: "05/29/2024",
+          duration: "07/2024",
           location: "Springer Berlin Heidelberg",
           full_detailed_link:
             "https://link.springer.com/article/10.1007/s00138-024-01542-2",
@@ -541,12 +555,12 @@ const research = {
         },
         {
           title:
-            "Gated Contextual Transformer Network for Multi-modal Retinal Image Clinical Description Generation",
+            "Gated contextual transformer network for multi-modal retinal image clinical description generation",
           company: "Image and Vision Computing",
           company_url:
             "https://www.sciencedirect.com/journal/image-and-vision-computing",
           logo_path: "elsevier_logo.png",
-          duration: "02/15/2024",
+          duration: "02/2024",
           location: "Elsevier B.V.",
           full_detailed_link:
             "https://www.sciencedirect.com/science/article/pii/S0262885624000490",
@@ -557,11 +571,11 @@ const research = {
         },
         {
           title:
-            "Visual Attention based Composite Dense Neural Network for Facial Expression Recognition",
+            "Visual attention based composite dense neural network for facial expression recognition",
           company: "Journal of Ambient Intelligence and Humanized Computing",
           company_url: "https://link.springer.com/journal/12652",
           logo_path: "springer_small_logo.png",
-          duration: "12/2024",
+          duration: "12/2023",
           location: "Springer Berlin Heidelberg",
           full_detailed_link:
             "https://link.springer.com/article/10.1007/s12652-022-03843-8",
@@ -572,7 +586,7 @@ const research = {
         },
         {
           title:
-            "Hinge Attention Network: A Joint Model for Diabetic Retinopathy Severity Grading",
+            "Hinge attention network: A joint model for diabetic retinopathy severity grading",
           company: "Applied Intelligence",
           company_url: "https://link.springer.com/journal/10489",
           logo_path: "springer_small_logo.png",
@@ -587,11 +601,11 @@ const research = {
         },
         {
           title:
-            "Multi-level Attention Network: Application to Brain Tumor Classification",
+            "Multi-level attention network: application to brain tumor classification",
           company: "Signal, Image and Video Processing",
           company_url: "https://link.springer.com/journal/11760",
           logo_path: "springer_small_logo.png",
-          duration: "4/2022",
+          duration: "04/2022",
           location: "Springer London",
           full_detailed_link:
             "https://link.springer.com/article/10.1007/s11760-021-02022-0",
@@ -602,12 +616,12 @@ const research = {
         },
         {
           title:
-            "Transfer Learning based Novel Ensemble Classifier for COVID-19 Detection from Chest CT-scans",
+            "Transfer learning based novel ensemble classifier for COVID-19 detection from chest CT-scans",
           company: "Computers in Biology and Medicine",
           company_url:
             "https://www.sciencedirect.com/journal/computers-in-biology-and-medicine",
           logo_path: "elsevier_logo.png",
-          duration: "2/1/2022",
+          duration: "02/2022",
           location: "Elsevier Pergamon",
           full_detailed_link:
             "https://www.sciencedirect.com/science/article/pii/S0010482521009215",
@@ -618,7 +632,7 @@ const research = {
         },
         {
           title:
-            "Lesion-aware Attention with Neural Support Vector Machine for Retinopathy Diagnosis",
+            "Lesion-aware attention with neural support vector machine for retinopathy diagnosis",
           company: "Machine Vision and Applications",
           company_url: "https://link.springer.com/journal/138",
           logo_path: "springer_small_logo.png",
@@ -634,31 +648,16 @@ const research = {
       ],
     },
     {
-      title: "Conferences (4)",
+      title: "Conferences (3)",
       experiences: [
         {
           title:
-            "Multi-modal Imaging Genomics Transformer: Attentive Integration of Imaging with Genomic Biomarkers for Schizophrenia Classification",
+            "Guided Context Gating: Learning to leverage salient lesions in retinal fundus images",
           company:
-            "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2024",
-          company_url: "https://conferences.miccai.org/2024/en/",
-          logo_path: "unknown_logo.png",
-          duration: "07/28/2024",
-          location: "MICCAI",
-          full_detailed_link: "https://arxiv.org/pdf/2407.19385",
-          description: [
-            "Schizophrenia (SZ) is a severe brain disorder marked by diverse cognitive impairments, abnormalities in brain structure, function, and genetic factors. Its complex symptoms and overlap with other psychiatric conditions challenge traditional diagnostic methods, necessitating advanced systems to improve precision. Existing research studies have mostly focused on imaging data, such as structural and functional MRI, for SZ diagnosis. There has been less focus on the integration of genomic features despite their potential in identifying heritable SZ traits. In this study, we introduce a Multi-modal Imaging Genomics Transformer (MIGTrans), that attentively integrates genomics with structural and functional imaging data to capture SZ-related neuroanatomical and connectome abnormalities. MIGTrans demonstrated improved SZ classification performance with an accuracy of 86.05% (±0.02), offering clear interpretations and identifying significant genomic locations and brain morphological/connectivity patterns associated with SZ.",
-          ],
-          color: "#4285F4",
-        },
-        {
-          title:
-            "Guided Context Gating: Learning to Leverage Salient Lesions in Retinal Fundus Images",
-          company:
-            "Proceedings of the IEEE International Conference on Image Processing (ICIP), IEEE, 2024",
+            "IEEE International Conference on Image Processing (ICIP), 2024",
           company_url: "https://2024.ieeeicip.org/",
           logo_path: "unknown_logo.png",
-          duration: "06/07/2024",
+          duration: "06/2024",
           location: "IEEE",
           full_detailed_link: "https://arxiv.org/abs/2406.13126",
           description: [
@@ -670,10 +669,10 @@ const research = {
           title:
             "M3T: Multi-Modal Medical Transformer to bridge Clinical Context with Visual Insights for Retinal Image Medical Description Generation",
           company:
-            "Proceedings of the IEEE International Conference on Image Processing (ICIP), IEEE, 2024",
+            "IEEE International Conference on Image Processing (ICIP), 2024",
           company_url: "https://2024.ieeeicip.org/",
           logo_path: "unknown_logo.png",
-          duration: "06/07/2024",
+          duration: "06/2024",
           location: "IEEE",
           full_detailed_link: "https://arxiv.org/abs/2406.13129",
           description: [
@@ -685,7 +684,7 @@ const research = {
           title:
             "Spatial Sequence Attention Network for Schizophrenia Classification from Structural Brain MR Images",
           company:
-            "International Symposium on Biomedical Imaging (ISBI), IEEE, 2024",
+            "IEEE International Symposium on Biomedical Imaging (ISBI), 2024",
           company_url: "https://biomedicalimaging.org/",
           logo_path: "unknown_logo.png",
           duration: "02/02/2024",
@@ -699,32 +698,64 @@ const research = {
       ],
     },
     {
-      title: "Under Review (2)",
+      title: "Under Review (4)",
       experiences: [
-        // {
-        //   title:
-        //     "Guided Context Gating: Learning to Leverage Salient Lesions in Retinal Fundus Images",
-        //   company: "IEEE International Conference on Image Processing",
-        //   company_url:
-        //     "https://ieeexplore.ieee.org/xpl/conhome/1000349/all-proceedings",
-        //   logo_path: "unknown_logo.png",
-        //   duration: "",
-        //   location: "IEEE",
-        //   description: [""],
-        //   color: "#4285F4",
-        // },
-        // {
-        //   title:
-        //     "M3T: Multi-Modal Medical Transformer to bridge Clinical Context with Visual Insights for Retinal Image Medical Description Generation",
-        //   company: "IEEE International Conference on Image Processing",
-        //   company_url:
-        //     "https://ieeexplore.ieee.org/xpl/conhome/1000349/all-proceedings",
-        //   logo_path: "unknown_logo.png",
-        //   duration: "",
-        //   location: "IEEE",
-        //   description: [""],
-        //   color: "#4285F4",
-        // },
+        {
+          title:
+            "MedVLT: Focus & Fusion in Vision Language Transformer Yield Expert Precision in Medical Image Captioning",
+          company:
+            "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2025",
+          company_url: "https://aaai.org/conference/aaai/aaai-25/",
+          logo_path: "unknown_logo.png",
+          duration: "Decision Awaited",
+          location: "",
+          description: [""],
+          color: "#4285F4",
+        },
+        {
+          title:
+            "GCS-M3VLT: Guided Context Self-Attention based Multi-modal Medical Vision Language Transformer for Retinal Image Captioning",
+          company:
+            "Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2025",
+          company_url: "https://2025.ieeeicassp.org/",
+          logo_path: "unknown_logo.png",
+          duration: "Decision Awaited",
+          location: "IEEE",
+          description: [
+            "Retinal image analysis is crucial for diagnosing and treating eye diseases, yet generating accurate medical reports from images remains challenging due to variability in image quality and pathology, especially with limited labeled data. Previous Transformer-based models struggled to integrate visual and textual information under limited supervision. In response, we propose a novel vision-language model for retinal image captioning that combines visual and textual features through a guided context self-attention mechanism. This approach captures both intricate details and the global clinical context, even in data-scarce scenarios. Extensive experiments on the DeepEyeNet dataset demonstrate a 0.023 BLEU@4 improvement, along with significant qualitative advancements, highlighting the effectiveness of our model in generating comprehensive medical captions.",
+          ],
+          color: "#4285F4",
+        },
+        {
+          title:
+            "Multi-modal Imaging Genomics Transformer: Attentive Integration of Imaging with Genomic Biomarkers for Schizophrenia Classification",
+          company:
+            "Proceedings of the IEEE International Symposium on Biomedical Imaging (ISBI), 2025",
+          company_url:
+            "https://signalprocessingsociety.org/blog/isbi-2025-2025-ieee-international-symposium-biomedical-imaging",
+          logo_path: "unknown_logo.png",
+          duration: "Decision Awaited",
+          location: "IEEE",
+          description: [
+            "Schizophrenia (SZ) is a severe brain disorder marked by diverse cognitive impairments, abnormalities in brain structure, function, and genetic factors. Its complex symptoms and overlap with other psychiatric conditions challenge traditional diagnostic methods, necessitating advanced systems to improve precision. Existing research studies have mostly focused on imaging data, such as structural and functional MRI, for SZ diagnosis. There has been less focus on the integration of genomic features despite their potential in identifying heritable SZ traits. In this study, we introduce a Multi-modal Imaging Genomics Transformer (MIGTrans), that attentively integrates genomics with structural and functional imaging data to capture SZ-related neuroanatomical and connectome abnormalities. MIGTrans demonstrated improved SZ classification performance with an accuracy of 86.05% (+/- 0.02), offering clear interpretations and identifying significant genomic locations and brain morphological/connectivity patterns associated with SZ.",
+          ],
+          color: "#4285F4",
+        },
+        {
+          title:
+            "Dynamic Contextual Attention Network: Transforming Spatial Representations into Adaptive Insights for Endoscopic Polyp Diagnosis",
+          company:
+            "Proceedings of the IEEE International Symposium on Biomedical Imaging (ISBI), 2025",
+          company_url:
+            "https://signalprocessingsociety.org/blog/isbi-2025-2025-ieee-international-symposium-biomedical-imaging",
+          logo_path: "unknown_logo.png",
+          duration: "Decision Awaited",
+          location: "IEEE",
+          description: [
+            "Colorectal polyps are key indicators for early detection of colorectal cancer. However, traditional endoscopic imaging often struggles with accurate polyp localization and lacks comprehensive contextual awareness, which can limit the explainability of diagnoses. To address these issues, we propose the Dynamic Contextual Attention Network (DCAN). This novel approach transforms spatial representations into adaptive contextual insights, using an attention mechanism that enhances focus on critical polyp regions without explicit localization modules. By integrating contextual awareness into the classification process, DCAN improves decision interpretability and overall diagnostic performance. This advancement in imaging could lead to more reliable colorectal cancer detection, enabling better patient outcomes.",
+          ],
+          color: "#4285F4",
+        },
       ],
     },
   ],

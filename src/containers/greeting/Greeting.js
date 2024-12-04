@@ -33,7 +33,7 @@ export default function Greeting(props) {
                 <Button
                   text="Resume"
                   newTab={true}
-                  href={greeting.resumeLinkSinglePage}
+                  href={greeting.resumeLink}
                   theme={theme}
                 />
                 {/* <div style={{ height: '5px', width: '5%', clear: 'both' }}></div> Spacer div */}
