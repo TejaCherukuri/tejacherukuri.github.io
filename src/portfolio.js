@@ -25,9 +25,9 @@ const greeting = {
   subTitle:
     "Passionate developer and researcher, dedicated to crafting end-to-end products that make a lasting impact on society.",
   resumeLinkSinglePage:
-    "https://drive.google.com/file/d/1mF2jQJ60iwh4tI7X7ucaNman3PaWLhPK/view?usp=sharing",
+    "https://drive.google.com/file/d/1q7j--xyFPIhxRNx9cDqwsfWiAaeZ_QCt/view?usp=sharing",
   resumeLink:
-    "https://drive.google.com/file/d/1bLksQ13nlSQVH5lIkPQthXFjqmLHLat3/view?usp=sharing",
+    "https://drive.google.com/file/d/1q7j--xyFPIhxRNx9cDqwsfWiAaeZ_QCt/view?usp=sharing",
   portfolio_repository:
     "https://github.com/tejacherukuri/tejacherukuri.github.io",
   githubProfile: "https://github.com/tejacherukuri",
@@ -287,7 +287,7 @@ const degrees = {
       subtitle: "M.S in Computer Science",
       logo_path: "gsu_small_logo.png",
       alt_name: "GSU",
-      duration: "2023 - 2024 (Expected)",
+      duration: "2023 - 2025 (Expected in May)",
       descriptions: [
         "⚡ I have taken variety of courses related to Artificial Intelligence which correspond to Natural Language Processing, Advanced Machine Learning, Computer Vision etc.",
         "⚡ Apart from this, I have also done research assistantship. I have worked on designing and developing multi-modal fusion techniques, attention mechanisms for solving various medical imaging problems. ",
@@ -351,7 +351,7 @@ const experience = {
           company: "TReNDS Center",
           company_url: "https://trendscenter.org/",
           logo_path: "trends_small_logo.png",
-          duration: "Oct 2023 - Present",
+          duration: "Sep 2023 - Present",
           location: "Atlanta, GA",
           description: [
             "Medical Vision Language Transformer: Pioneered a novel approach for resource-constrained environments, integrating Abstractor & Adaptor to enhance feature focus and fusion, achieving expert-level precision in medical image captioning.",
@@ -437,7 +437,7 @@ const experience = {
           location: "Remote",
           description: [
             "IEEE Transactions in Medical Imaging (2023-Present): 2",
-            "IEEE International Symposium on Biomedical Imaging 2025: 2",
+            "IEEE International Symposium on Biomedical Imaging 2025: 5",
           ],
           color: "#4285F4",
         },
@@ -534,6 +534,70 @@ const research = {
     "I am an active researcher in the field of Deep Learning, Computer Vision and NLP.  My research work mainly focusses on budiling computer aided diagnostic tools for medical imaging problems through multi-modal learning, novel attention mechanisms and the development of interpretable AI systems.",
   header_image_path: "experience.svg",
   sections: [
+    {
+      title: "Conferences (4)",
+      experiences: [
+        {
+          title:
+            "GCS-M3VLT: Guided Context Self-Attention based Multi-modal Medical Vision Language Transformer for Retinal Image Captioning",
+          company:
+            "Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2025",
+          company_url: "https://2025.ieeeicassp.org/",
+          logo_path: "unknown_logo.png",
+          duration: "12/2024",
+          location: "IEEE",
+          description: [
+            "Retinal image analysis is crucial for diagnosing and treating eye diseases, yet generating accurate medical reports from images remains challenging due to variability in image quality and pathology, especially with limited labeled data. Previous Transformer-based models struggled to integrate visual and textual information under limited supervision. In response, we propose a novel vision-language model for retinal image captioning that combines visual and textual features through a guided context self-attention mechanism. This approach captures both intricate details and the global clinical context, even in data-scarce scenarios. Extensive experiments on the DeepEyeNet dataset demonstrate a 0.023 BLEU@4 improvement, along with significant qualitative advancements, highlighting the effectiveness of our model in generating comprehensive medical captions.",
+          ],
+          color: "#4285F4",
+        },
+        {
+          title:
+            "Guided Context Gating: Learning to leverage salient lesions in retinal fundus images",
+          company:
+            "IEEE International Conference on Image Processing (ICIP), 2024",
+          company_url: "https://2024.ieeeicip.org/",
+          logo_path: "unknown_logo.png",
+          duration: "06/2024",
+          location: "IEEE",
+          full_detailed_link: "https://arxiv.org/abs/2406.13126",
+          description: [
+            "Effectively representing medical images, especially retinal images, presents a considerable challenge due to variations in appearance, size, and contextual information of pathological signs called lesions. Precise discrimination of these lesions is crucial for diagnosing vision-threatening issues such as diabetic retinopathy. While visual attention-based neural networks have been introduced to learn spatial context and channel correlations from retinal images, they often fall short in capturing localized lesion context. Addressing this limitation, we propose a novel attention mechanism called Guided Context Gating, an unique approach that integrates Context Formulation, Channel Correlation, and Guided Gating to learn global context, spatial correlations, and localized lesion context. Our qualitative evaluation against existing attention mechanisms emphasize the superiority of Guided Context Gating in terms of explainability. Notably, experiments on the Zenodo-DR-7 dataset reveal a substantial 2.63% accuracy boost over advanced attention mechanisms & an impressive 6.53% improvement over the state-of-the-art Vision Transformer for assessing the severity grade of retinopathy, even with imbalanced and limited training samples for each class.",
+          ],
+          color: "#4285F4",
+        },
+        {
+          title:
+            "M3T: Multi-Modal Medical Transformer to bridge Clinical Context with Visual Insights for Retinal Image Medical Description Generation",
+          company:
+            "IEEE International Conference on Image Processing (ICIP), 2024",
+          company_url: "https://2024.ieeeicip.org/",
+          logo_path: "unknown_logo.png",
+          duration: "06/2024",
+          location: "IEEE",
+          full_detailed_link: "https://arxiv.org/abs/2406.13129",
+          description: [
+            "Automated retinal image medical description generation is crucial for streamlining medical diagnosis and treatment planning. Existing challenges include the reliance on learned retinal image representations, difficulties in handling multiple imaging modalities, and the lack of clinical context in visual representations. Addressing these issues, we propose the Multi-Modal Medical Transformer (M3T), a novel deep learning architecture that integrates visual representations with diagnostic keywords. Unlike previous studies focusing on specific aspects, our approach efficiently learns contextual information and semantics from both modalities, enabling the generation of precise and coherent medical descriptions for retinal images. Experimental studies on the DeepEyeNet dataset validate the success of M3T in meeting ophthalmologists' standards, demonstrating a substantial 13.5% improvement in BLEU@4 over the best-performing baseline model.",
+          ],
+          color: "#4285F4",
+        },
+        {
+          title:
+            "Spatial Sequence Attention Network for Schizophrenia Classification from Structural Brain MR Images",
+          company:
+            "IEEE International Symposium on Biomedical Imaging (ISBI), 2024",
+          company_url: "https://biomedicalimaging.org/",
+          logo_path: "unknown_logo.png",
+          duration: "02/02/2024",
+          location: "IEEE",
+          full_detailed_link: "https://arxiv.org/abs/2406.12683",
+          description: [
+            "Schizophrenia is a debilitating, chronic mental disorder that significantly impacts an individual's cognitive abilities, behavior, and social interactions. It is characterized by subtle morphological changes in the brain, particularly in the gray matter. These changes are often imperceptible through manual observation, demanding an automated approach to diagnosis. This study introduces a deep learning methodology for the classification of individuals with Schizophrenia. We achieve this by implementing a diversified attention mechanism known as Spatial Sequence Attention (SSA) which is designed to extract and emphasize significant feature representations from structural MRI (sMRI). Initially, we employ the transfer learning paradigm by leveraging pre-trained DenseNet to extract initial feature maps from the final convolutional block which contains morphological alterations associated with Schizophrenia. These features are further processed by the proposed SSA to capture and emphasize intricate spatial interactions and relationships across volumes within the brain. Our experimental studies conducted on a clinical dataset have revealed that the proposed attention mechanism outperforms the existing Squeeze & Excitation Network for Schizophrenia classification.",
+          ],
+          color: "#4285F4",
+        },
+      ],
+    },
     {
       title: "Journals (7)",
       work: true,
@@ -648,82 +712,18 @@ const research = {
       ],
     },
     {
-      title: "Conferences (3)",
-      experiences: [
-        {
-          title:
-            "Guided Context Gating: Learning to leverage salient lesions in retinal fundus images",
-          company:
-            "IEEE International Conference on Image Processing (ICIP), 2024",
-          company_url: "https://2024.ieeeicip.org/",
-          logo_path: "unknown_logo.png",
-          duration: "06/2024",
-          location: "IEEE",
-          full_detailed_link: "https://arxiv.org/abs/2406.13126",
-          description: [
-            "Effectively representing medical images, especially retinal images, presents a considerable challenge due to variations in appearance, size, and contextual information of pathological signs called lesions. Precise discrimination of these lesions is crucial for diagnosing vision-threatening issues such as diabetic retinopathy. While visual attention-based neural networks have been introduced to learn spatial context and channel correlations from retinal images, they often fall short in capturing localized lesion context. Addressing this limitation, we propose a novel attention mechanism called Guided Context Gating, an unique approach that integrates Context Formulation, Channel Correlation, and Guided Gating to learn global context, spatial correlations, and localized lesion context. Our qualitative evaluation against existing attention mechanisms emphasize the superiority of Guided Context Gating in terms of explainability. Notably, experiments on the Zenodo-DR-7 dataset reveal a substantial 2.63% accuracy boost over advanced attention mechanisms & an impressive 6.53% improvement over the state-of-the-art Vision Transformer for assessing the severity grade of retinopathy, even with imbalanced and limited training samples for each class.",
-          ],
-          color: "#4285F4",
-        },
-        {
-          title:
-            "M3T: Multi-Modal Medical Transformer to bridge Clinical Context with Visual Insights for Retinal Image Medical Description Generation",
-          company:
-            "IEEE International Conference on Image Processing (ICIP), 2024",
-          company_url: "https://2024.ieeeicip.org/",
-          logo_path: "unknown_logo.png",
-          duration: "06/2024",
-          location: "IEEE",
-          full_detailed_link: "https://arxiv.org/abs/2406.13129",
-          description: [
-            "Automated retinal image medical description generation is crucial for streamlining medical diagnosis and treatment planning. Existing challenges include the reliance on learned retinal image representations, difficulties in handling multiple imaging modalities, and the lack of clinical context in visual representations. Addressing these issues, we propose the Multi-Modal Medical Transformer (M3T), a novel deep learning architecture that integrates visual representations with diagnostic keywords. Unlike previous studies focusing on specific aspects, our approach efficiently learns contextual information and semantics from both modalities, enabling the generation of precise and coherent medical descriptions for retinal images. Experimental studies on the DeepEyeNet dataset validate the success of M3T in meeting ophthalmologists' standards, demonstrating a substantial 13.5% improvement in BLEU@4 over the best-performing baseline model.",
-          ],
-          color: "#4285F4",
-        },
-        {
-          title:
-            "Spatial Sequence Attention Network for Schizophrenia Classification from Structural Brain MR Images",
-          company:
-            "IEEE International Symposium on Biomedical Imaging (ISBI), 2024",
-          company_url: "https://biomedicalimaging.org/",
-          logo_path: "unknown_logo.png",
-          duration: "02/02/2024",
-          location: "IEEE",
-          full_detailed_link: "https://arxiv.org/abs/2406.12683",
-          description: [
-            "Schizophrenia is a debilitating, chronic mental disorder that significantly impacts an individual's cognitive abilities, behavior, and social interactions. It is characterized by subtle morphological changes in the brain, particularly in the gray matter. These changes are often imperceptible through manual observation, demanding an automated approach to diagnosis. This study introduces a deep learning methodology for the classification of individuals with Schizophrenia. We achieve this by implementing a diversified attention mechanism known as Spatial Sequence Attention (SSA) which is designed to extract and emphasize significant feature representations from structural MRI (sMRI). Initially, we employ the transfer learning paradigm by leveraging pre-trained DenseNet to extract initial feature maps from the final convolutional block which contains morphological alterations associated with Schizophrenia. These features are further processed by the proposed SSA to capture and emphasize intricate spatial interactions and relationships across volumes within the brain. Our experimental studies conducted on a clinical dataset have revealed that the proposed attention mechanism outperforms the existing Squeeze & Excitation Network for Schizophrenia classification.",
-          ],
-          color: "#4285F4",
-        },
-      ],
-    },
-    {
-      title: "Under Review (4)",
+      title: "Under Review (3)",
       experiences: [
         {
           title:
             "MedVLT: Focus & Fusion in Vision Language Transformer Yield Expert Precision in Medical Image Captioning",
           company:
-            "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2025",
-          company_url: "https://aaai.org/conference/aaai/aaai-25/",
+            "Proceedings of the 28th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2025",
+          company_url: "",
           logo_path: "unknown_logo.png",
-          duration: "Decision Awaited",
+          duration: "Intented for Submission",
           location: "",
           description: [""],
-          color: "#4285F4",
-        },
-        {
-          title:
-            "GCS-M3VLT: Guided Context Self-Attention based Multi-modal Medical Vision Language Transformer for Retinal Image Captioning",
-          company:
-            "Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2025",
-          company_url: "https://2025.ieeeicassp.org/",
-          logo_path: "unknown_logo.png",
-          duration: "Decision Awaited",
-          location: "IEEE",
-          description: [
-            "Retinal image analysis is crucial for diagnosing and treating eye diseases, yet generating accurate medical reports from images remains challenging due to variability in image quality and pathology, especially with limited labeled data. Previous Transformer-based models struggled to integrate visual and textual information under limited supervision. In response, we propose a novel vision-language model for retinal image captioning that combines visual and textual features through a guided context self-attention mechanism. This approach captures both intricate details and the global clinical context, even in data-scarce scenarios. Extensive experiments on the DeepEyeNet dataset demonstrate a 0.023 BLEU@4 improvement, along with significant qualitative advancements, highlighting the effectiveness of our model in generating comprehensive medical captions.",
-          ],
           color: "#4285F4",
         },
         {
