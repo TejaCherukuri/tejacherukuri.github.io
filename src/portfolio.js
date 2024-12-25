@@ -546,6 +546,7 @@ const research = {
           logo_path: "unknown_logo.png",
           duration: "12/2024",
           location: "IEEE",
+          full_detailed_link: "https://arxiv.org/abs/2412.17251",
           description: [
             "Retinal image analysis is crucial for diagnosing and treating eye diseases, yet generating accurate medical reports from images remains challenging due to variability in image quality and pathology, especially with limited labeled data. Previous Transformer-based models struggled to integrate visual and textual information under limited supervision. In response, we propose a novel vision-language model for retinal image captioning that combines visual and textual features through a guided context self-attention mechanism. This approach captures both intricate details and the global clinical context, even in data-scarce scenarios. Extensive experiments on the DeepEyeNet dataset demonstrate a 0.023 BLEU@4 improvement, along with significant qualitative advancements, highlighting the effectiveness of our model in generating comprehensive medical captions.",
           ],
