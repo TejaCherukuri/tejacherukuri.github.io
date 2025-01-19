@@ -25,9 +25,9 @@ const greeting = {
   subTitle:
     "Passionate developer and researcher, dedicated to crafting end-to-end products that make a lasting impact on society.",
   resumeLinkSinglePage:
-    "https://drive.google.com/file/d/1q7j--xyFPIhxRNx9cDqwsfWiAaeZ_QCt/view?usp=sharing",
+    "https://drive.google.com/file/d/1FVyybvRprFYbipAr86-5bywQWwyQYAZ1/view?usp=sharing",
   resumeLink:
-    "https://drive.google.com/file/d/1q7j--xyFPIhxRNx9cDqwsfWiAaeZ_QCt/view?usp=sharing",
+    "https://drive.google.com/file/d/1FVyybvRprFYbipAr86-5bywQWwyQYAZ1/view?usp=sharing",
   portfolio_repository:
     "https://github.com/tejacherukuri/tejacherukuri.github.io",
   githubProfile: "https://github.com/tejacherukuri",
@@ -51,7 +51,7 @@ const socialMediaLinks = [
   },
   {
     name: "LinkedIn",
-    link: "https://linkedin.com/in/teja-krishna-cherukuri-319714135",
+    link: "https://linkedin.com/in/tejacherukuri",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
@@ -86,6 +86,21 @@ const skills = {
       ],
       softwareSkills: [
         {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "PyTorch",
+          fontAwesomeClassname: "logos-pytorch",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
           skillName: "Tensorflow",
           fontAwesomeClassname: "logos-tensorflow",
           style: {
@@ -98,21 +113,6 @@ const skills = {
           style: {
             backgroundColor: "white",
             color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
           },
         },
         {
@@ -212,17 +212,17 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
           skillName: "Azure",
           fontAwesomeClassname: "simple-icons:microsoftazure",
           style: {
             color: "#0089D6",
+          },
+        },
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "simple-icons:amazonaws",
+          style: {
+            color: "#FF9900",
           },
         },
         {
@@ -339,7 +339,7 @@ const experience = {
   title: "Experience",
   subtitle: "Professional Work and Volunteerships ",
   description:
-    "Throughout my professional and academic journey, I have held diverse roles, including positions as a Research Assistant, Data Science & Machine Learning Engineer, and Software Engineer.",
+    "Throughout my professional and academic journey, I have held diverse roles, including positions as a Research Assistant, Data Scientist, and Software Engineer.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -347,13 +347,17 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Data Scientist (Graduate Research Assistant)",
+          title: "Graduate Research Assistant",
           company: "TReNDS Center",
           company_url: "https://trendscenter.org/",
           logo_path: "trends_small_logo.png",
           duration: "Sep 2023 - Present",
           location: "Atlanta, GA",
           description: [
+            "Published 5 IEEE papers showcasing the impact of our research methods for advancing AI in Medicine.",
+            "Developed and fine-tuned Multi-modal LLMs for medical image captioning, integrating images with diagnostic text, achieving a 13.4% higher BLEU4 over VisionGPT, with just 440M parameters, and reducing inference time to 1.6 sec per image.",
+            "Designed various medical image classification models for diagnosing chronic diseases such as schizophrenia, diabetic retinopathy, breast cancer, and colon cancer using specific imaging modalities with 5%–7% lower false negatives.",
+            "Experienced in implementing and scaling deep learning models using PyTorch, leveraging slurm job scheduling for high performance computing and and efficient resource utilization.",
             "Medical Vision Language Transformer: Pioneered a novel approach for resource-constrained environments, integrating Abstractor & Adaptor to enhance feature focus and fusion, achieving expert-level precision in medical image captioning.",
             "Multi-Modal Medical Transformer: Devised a vision-language model integrating retinal image features & clinical keywords, achieving a 13.5% improvement in BLEU-4 over GPT-2 for accurate diagnostic report generation.",
             "Guided Context Gating: Innovated a novel attention model to improve context learning in retinal images, boosting accuracy by 2.63% over advanced attention methods & 6.53% over Vision Transformer, enhancing retinopathy diagnosis.",
@@ -376,21 +380,18 @@ const experience = {
           color: "#9b1578",
         },
         {
-          title: "Data Science & Machine Learning Engineer",
+          title: "Data Scientist",
           company: "Tata Consultancy Services Limited",
           company_url: "https://www.tcs.com/",
           logo_path: "tcs_small_logo1.png",
           duration: "Nov 2020 - Aug 2023",
           location: "Hyderabad, Telangana",
           description: [
-            "DataStream Optimization Engine: Engineered ETL pipelines for large-scale datasets, boosting data storage efficiency by 10%, cutting computational costs, and enabling rapid data fetching through optimized transformation and loading.",
-            "Financial Risk Analytics Platform: Developed and trained a comprehensive machine learning system for customer churn prediction, loan approval, and fraud detection, achieving a 25% improvement in accuracy and a 15% reduction in false positives, which prevented an estimated $25 million in potential fraud losses.",
-            "Cloud ML App Deployer: Configured cloud-based build and deployment pipelines for seamless integration and maintenance of machine learning models, ensuring a 30% faster deployment cycle and 99.9% uptime for production systems.",
-            "App Pulse Monitoring System: Monitored application performance to detect critical issues in real-time, implementing drift detection mechanisms that reduced incident response time by 50% and enhanced model reliability.",
-            "Transactions Insights Dashboard: Created an interactive dashboard to visualize transaction trends, enabling real-time data analysis and uncovering actionable insights that led to a 20% increase in operational efficiency.",
-            "Fraud Filter: Architected a scalable ML system for fraud detection using PyTorch, reducing fraudulent activities by 20% resulting in an annual savings of $0.5 million.",
-            "Customer Support Automation: Implemented an intelligent chatbot integrated with Large Language Models to handle customer queries in banking, achieving a 40% reduction in resolution time and improving customer satisfaction by 2x times.",
-            "Cross-Functional Collaboration: Partnered with various teams to integrate AI features for product enhancement.",
+            "Built a customer attrition system based on ensemble of SVM, Random Forest, and AdaBoost in Python using scikit-learn, improving 42 basis points in annual customer retention.",
+            "Implemented REST APIs using FastAPI to surface machine learning models for loan approval and fraud detection, reducing workflows processing time by 30% and preventing potential fraud losses of $25M, annually.",
+            "Developed and deployed a chatbot for handling customer queries using Azure AI Services in collaboration with the Customer Experience & Personalization team, achieving 3x faster response times and increasing CSI to 96%.",
+            "Achieved sub-100ms response times for high-volume inference requests by containerizing models with Docker and deploying them on GPU-enabled Azure Container Instances.",
+            "Led a POC for a dynamic risk-based pricing model, aligning interest rates with borrower risk profiles and market conditions, which reduced underpriced loans by 18%, and generated $3M in annual revenue growth.",
           ],
           color: "#fc1f20",
         },
@@ -535,8 +536,24 @@ const research = {
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Conferences (4)",
+      title: "Conferences (5)",
       experiences: [
+        {
+          title:
+            "Multi-modal Imaging Genomics Transformer: Attentive Integration of Imaging with Genomic Biomarkers for Schizophrenia Classification",
+          company:
+            "Proceedings of the IEEE International Symposium on Biomedical Imaging (ISBI), 2025",
+          company_url:
+            "https://signalprocessingsociety.org/blog/isbi-2025-2025-ieee-international-symposium-biomedical-imaging",
+          logo_path: "unknown_logo.png",
+          duration: "12/2024",
+          location: "IEEE",
+          full_detailed_link: "https://arxiv.org/abs/2407.19385",
+          description: [
+            "Schizophrenia (SZ) is a severe brain disorder marked by diverse cognitive impairments, abnormalities in brain structure, function, and genetic factors. Its complex symptoms and overlap with other psychiatric conditions challenge traditional diagnostic methods, necessitating advanced systems to improve precision. Existing research studies have mostly focused on imaging data, such as structural and functional MRI, for SZ diagnosis. There has been less focus on the integration of genomic features despite their potential in identifying heritable SZ traits. In this study, we introduce a Multi-modal Imaging Genomics Transformer (MIGTrans), that attentively integrates genomics with structural and functional imaging data to capture SZ-related neuroanatomical and connectome abnormalities. MIGTrans demonstrated improved SZ classification performance with an accuracy of 86.05% (+/- 0.02), offering clear interpretations and identifying significant genomic locations and brain morphological/connectivity patterns associated with SZ.",
+          ],
+          color: "#4285F4",
+        },
         {
           title:
             "GCS-M3VLT: Guided Context Self-Attention based Multi-modal Medical Vision Language Transformer for Retinal Image Captioning",
@@ -589,7 +606,7 @@ const research = {
             "IEEE International Symposium on Biomedical Imaging (ISBI), 2024",
           company_url: "https://biomedicalimaging.org/",
           logo_path: "unknown_logo.png",
-          duration: "02/02/2024",
+          duration: "02/2024",
           location: "IEEE",
           full_detailed_link: "https://arxiv.org/abs/2406.12683",
           description: [
@@ -713,7 +730,7 @@ const research = {
       ],
     },
     {
-      title: "Under Review (3)",
+      title: "Under Review (2)",
       experiences: [
         {
           title:
@@ -729,29 +746,13 @@ const research = {
         },
         {
           title:
-            "Multi-modal Imaging Genomics Transformer: Attentive Integration of Imaging with Genomic Biomarkers for Schizophrenia Classification",
-          company:
-            "Proceedings of the IEEE International Symposium on Biomedical Imaging (ISBI), 2025",
-          company_url:
-            "https://signalprocessingsociety.org/blog/isbi-2025-2025-ieee-international-symposium-biomedical-imaging",
-          logo_path: "unknown_logo.png",
-          duration: "Decision Awaited",
-          location: "IEEE",
-          description: [
-            "Schizophrenia (SZ) is a severe brain disorder marked by diverse cognitive impairments, abnormalities in brain structure, function, and genetic factors. Its complex symptoms and overlap with other psychiatric conditions challenge traditional diagnostic methods, necessitating advanced systems to improve precision. Existing research studies have mostly focused on imaging data, such as structural and functional MRI, for SZ diagnosis. There has been less focus on the integration of genomic features despite their potential in identifying heritable SZ traits. In this study, we introduce a Multi-modal Imaging Genomics Transformer (MIGTrans), that attentively integrates genomics with structural and functional imaging data to capture SZ-related neuroanatomical and connectome abnormalities. MIGTrans demonstrated improved SZ classification performance with an accuracy of 86.05% (+/- 0.02), offering clear interpretations and identifying significant genomic locations and brain morphological/connectivity patterns associated with SZ.",
-          ],
-          color: "#4285F4",
-        },
-        {
-          title:
             "Dynamic Contextual Attention Network: Transforming Spatial Representations into Adaptive Insights for Endoscopic Polyp Diagnosis",
           company:
-            "Proceedings of the IEEE International Symposium on Biomedical Imaging (ISBI), 2025",
-          company_url:
-            "https://signalprocessingsociety.org/blog/isbi-2025-2025-ieee-international-symposium-biomedical-imaging",
+            "Proceedings of the 28th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2025",
+          company_url: "",
           logo_path: "unknown_logo.png",
-          duration: "Decision Awaited",
-          location: "IEEE",
+          duration: "Intended for Submission",
+          location: "",
           description: [
             "Colorectal polyps are key indicators for early detection of colorectal cancer. However, traditional endoscopic imaging often struggles with accurate polyp localization and lacks comprehensive contextual awareness, which can limit the explainability of diagnoses. To address these issues, we propose the Dynamic Contextual Attention Network (DCAN). This novel approach transforms spatial representations into adaptive contextual insights, using an attention mechanism that enhances focus on critical polyp regions without explicit localization modules. By integrating contextual awareness into the classification process, DCAN improves decision interpretability and overall diagnostic performance. This advancement in imaging could lead to more reliable colorectal cancer detection, enabling better patient outcomes.",
           ],
