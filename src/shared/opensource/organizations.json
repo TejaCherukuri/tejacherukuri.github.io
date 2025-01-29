@@ -1,16 +1,6 @@
 {
   "data": [
     {
-      "login": "WildFireSimulationTeamSIMSlab",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/101431910?v=4",
-      "__typename": "Organization"
-    },
-    {
-      "login": "Neural-Navigators",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/146137139?v=4",
-      "__typename": "Organization"
-    },
-    {
       "login": "RetinalHealthDiagnostics",
       "avatarUrl": "https://avatars.githubusercontent.com/u/114346524?v=4",
       "__typename": "Organization"
