@@ -1,6 +1,87 @@
 {
-  "closed": 0,
-  "data": [],
+  "closed": 4,
+  "data": [
+    {
+      "id": "I_kwDOL5OWW86qvA1J",
+      "closed": true,
+      "title": "[Bug]: AsyncWebCrawler Incorrectly Resolving Relative Links in Markdown Output",
+      "createdAt": "2025-02-19T21:35:34Z",
+      "url": "https://github.com/unclecode/crawl4ai/issues/721",
+      "number": 721,
+      "assignees": {
+        "nodes": []
+      },
+      "repository": {
+        "name": "crawl4ai",
+        "url": "https://github.com/unclecode/crawl4ai",
+        "owner": {
+          "login": "unclecode",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/12494079?u=413d68156031fdfe74861491b75ffe6d426d8228&v=4",
+          "url": "https://github.com/unclecode"
+        }
+      }
+    },
+    {
+      "id": "I_kwDOL5OWW86qjjRP",
+      "closed": true,
+      "title": "[Bug]: Caching Issue: Crawler Ignores Updated CrawlerRunConfig Despite disable_cache=True in crawl4ai",
+      "createdAt": "2025-02-18T19:29:59Z",
+      "url": "https://github.com/unclecode/crawl4ai/issues/714",
+      "number": 714,
+      "assignees": {
+        "nodes": []
+      },
+      "repository": {
+        "name": "crawl4ai",
+        "url": "https://github.com/unclecode/crawl4ai",
+        "owner": {
+          "login": "unclecode",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/12494079?u=413d68156031fdfe74861491b75ffe6d426d8228&v=4",
+          "url": "https://github.com/unclecode"
+        }
+      }
+    },
+    {
+      "id": "I_kwDOL5OWW86p0HlA",
+      "closed": true,
+      "title": "[Bug]: CrawlerRunConfig is not consistent across systems/environments",
+      "createdAt": "2025-02-12T18:11:04Z",
+      "url": "https://github.com/unclecode/crawl4ai/issues/665",
+      "number": 665,
+      "assignees": {
+        "nodes": []
+      },
+      "repository": {
+        "name": "crawl4ai",
+        "url": "https://github.com/unclecode/crawl4ai",
+        "owner": {
+          "login": "unclecode",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/12494079?u=413d68156031fdfe74861491b75ffe6d426d8228&v=4",
+          "url": "https://github.com/unclecode"
+        }
+      }
+    },
+    {
+      "id": "I_kwDOL5OWW86pStT0",
+      "closed": true,
+      "title": "[Bug]: CrawlRunConfig doesn't work",
+      "createdAt": "2025-02-08T20:45:58Z",
+      "url": "https://github.com/unclecode/crawl4ai/issues/642",
+      "number": 642,
+      "assignees": {
+        "nodes": []
+      },
+      "repository": {
+        "name": "crawl4ai",
+        "url": "https://github.com/unclecode/crawl4ai",
+        "owner": {
+          "login": "unclecode",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/12494079?u=413d68156031fdfe74861491b75ffe6d426d8228&v=4",
+          "url": "https://github.com/unclecode"
+        }
+      }
+    }
+  ],
   "open": 0,
-  "totalCount": 0
+  "totalCount": 4
 }

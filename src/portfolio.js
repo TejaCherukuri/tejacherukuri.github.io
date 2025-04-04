@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Teja's Portfolio",
   description:
-    "Passionate developer and researcher in Machine Learning and Data Science, dedicated to crafting end-to-end products that make a lasting impact on society.",
+    "Data Scientist and ML Engineer, dedicated to crafting end-to-end products that make a lasting impact on society.",
   og: {
     title: "Teja Cherukuri Portfolio",
     // type: "website",
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "TejaCherukuri",
   // nickname: "",
   subTitle:
-    "Passionate developer and researcher, dedicated to crafting end-to-end products that make a lasting impact on society.",
+    "Data Scientist and ML Engineer, dedicated to crafting end-to-end products that make a lasting impact on society.",
   resumeLinkSinglePage:
     "https://drive.google.com/file/d/1FVyybvRprFYbipAr86-5bywQWwyQYAZ1/view?usp=sharing",
   resumeLink:
@@ -94,6 +94,13 @@ const skills = {
           },
         },
         {
+          skillName: "SQL",
+          fontAwesomeClassname: "devicon:sqldeveloper",
+          style: {
+            color: "#2C8EBB",
+          },
+        },
+        {
           skillName: "PyTorch",
           fontAwesomeClassname: "logos-pytorch",
           style: {
@@ -107,14 +114,14 @@ const skills = {
             backgroundColor: "transparent",
           },
         },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
+        // {
+        //   skillName: "Keras",
+        //   fontAwesomeClassname: "simple-icons:keras",
+        //   style: {
+        //     backgroundColor: "white",
+        //     color: "#D00000",
+        //   },
+        // },
         {
           skillName: "Deeplearning",
           imageSrc: "deeplearning_ai_logo.png",
@@ -133,31 +140,31 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Building responsive website front end using React-Redux",
-        "⚡ Creating application backend in Java, Spring Boot & Flask",
+        "⚡ Built REST APIs in FastAPI, Spring Boot",
       ],
       softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
+        // {
+        //   skillName: "HTML5",
+        //   fontAwesomeClassname: "simple-icons:html5",
+        //   style: {
+        //     color: "#E34F26",
+        //   },
+        // },
+        // {
+        //   skillName: "CSS3",
+        //   fontAwesomeClassname: "fa-css3",
+        //   style: {
+        //     color: "#1572B6",
+        //   },
+        // },
+        // {
+        //   skillName: "JavaScript",
+        //   fontAwesomeClassname: "simple-icons:javascript",
+        //   style: {
+        //     backgroundColor: "#000000",
+        //     color: "#F7DF1E",
+        //   },
+        // },
         {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
@@ -165,16 +172,30 @@ const skills = {
             color: "#61DAFB",
           },
         },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
+        // {
+        //   skillName: "NPM",
+        //   fontAwesomeClassname: "simple-icons:npm",
+        //   style: {
+        //     color: "#CB3837",
+        //   },
+        // },
         {
           skillName: "SQL",
           fontAwesomeClassname: "devicon:sqldeveloper",
+          style: {
+            color: "#2C8EBB",
+          },
+        },
+        {
+          skillName: "FastAPI",
+          fontAwesomeClassname: "devicon:fastapi",
+          style: {
+            color: "#2C8EBB",
+          },
+        },
+        {
+          skillName: "Flask",
+          fontAwesomeClassname: "skill-icons:flask-dark",
           style: {
             color: "#2C8EBB",
           },
@@ -189,13 +210,6 @@ const skills = {
         {
           skillName: "Spring Boot",
           fontAwesomeClassname: "simple-icons:springboot",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Flask",
-          fontAwesomeClassname: "skill-icons:flask-dark",
           style: {
             color: "#2C8EBB",
           },
@@ -287,9 +301,9 @@ const degrees = {
       subtitle: "M.S in Computer Science",
       logo_path: "gsu_small_logo.png",
       alt_name: "GSU",
-      duration: "2023 - 2025 (Expected in May)",
+      duration: "2023 - 2025",
       descriptions: [
-        "⚡ I have taken variety of courses related to Artificial Intelligence which correspond to Natural Language Processing, Advanced Machine Learning, Computer Vision etc.",
+        "⚡ I have taken variety of courses related to Artificial Intelligence which correspond to Natural Language Processing, Advanced Machine Learning, Computer Vision, Deep Learning etc.",
         "⚡ Apart from this, I have also done research assistantship. I have worked on designing and developing multi-modal fusion techniques, attention mechanisms for solving various medical imaging problems. ",
       ],
       website_link: "https://www.gsu.edu/",
@@ -387,11 +401,12 @@ const experience = {
           duration: "Nov 2020 - Aug 2023",
           location: "Hyderabad, Telangana",
           description: [
-            "Built a customer attrition system based on ensemble of SVM, Random Forest, and AdaBoost in Python using scikit-learn, improving 42 basis points in annual customer retention.",
-            "Implemented REST APIs using FastAPI to surface machine learning models for loan approval and fraud detection, reducing workflows processing time by 30% and preventing potential fraud losses of $25M, annually.",
-            "Developed and deployed a chatbot for handling customer queries using Azure AI Services in collaboration with the Customer Experience & Personalization team, achieving 3x faster response times and increasing CSI to 96%.",
-            "Achieved sub-100ms response times for high-volume inference requests by containerizing models with Docker and deploying them on GPU-enabled Azure Container Instances.",
-            "Led a POC for a dynamic risk-based pricing model, aligning interest rates with borrower risk profiles and market conditions, which reduced underpriced loans by 18%, and generated $3M in annual revenue growth.",
+            "Proposed and built the bank's first regression-based model for dynamic interest rate prediction on mortgage loans, increasing annual revenue by $180M–$230M through optimized pricing strategy.",
+            "Performed large-scale data analysis on 400GB+ financial data using Python, SQL, and PySpark, uncovering key patterns that optimized banking operations.",
+            "Replaced rule-based fraud detection with an XGBoost model, preventing $25M+ in annual losses.",
+            "Increased credit card application completion rates by 80% through an A/B test, optimizing form length and adding a progress bar, leading to higher user engagement and conversion.",
+            "Communicated analysis and modeling decisions to non-technical stakeholders through data visualization and PowerBI reports, providing actionable recommendations that enabled data-driven business decisions.",
+            "Deployed real-time fraud detection model on AWS (SageMaker, Lambda, EC2), handling up to 10,000 trans/sec.",
           ],
           color: "#fc1f20",
         },
@@ -439,6 +454,7 @@ const experience = {
           description: [
             "IEEE Transactions in Medical Imaging (2023-Present): 2",
             "IEEE International Symposium on Biomedical Imaging 2025: 5",
+            "MICCAI 2025: 3",
           ],
           color: "#4285F4",
         },
@@ -476,7 +492,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "Engaged in diverse projects across Machine Learning, Data Science, and Full-stack development. Highlight is RHD (Retinal Health Diagnostics), an intelligent system diagnosing retinal diseases through user-friendly input scans. Proud of seamlessly integrating tech for accessible healthcare solutions.",
+    "Engaged in diverse projects across Machine Learning, Data Science, and Full-stack development. ",
   avatar_image_path: "projects_image.svg",
 };
 
